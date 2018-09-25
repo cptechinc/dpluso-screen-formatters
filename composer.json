@@ -1,8 +1,8 @@
 {
 	"name": "cptechinc/dpluso-screen-formatters",
     "type": "library",
-    "description": "Classes for Dplus Online",
-    "keywords": ["crm"],
+    "description": "Screen Formatter Classes for Dplus Online",
+    "keywords": ["ii", "ci", "vi", "screen-formatter", "table-screen"],
     "homepage": "http://github.com/cptechinc/dpluso-screen-formatters",
 	"autoload": {
 		"files": [

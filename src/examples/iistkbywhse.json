@@ -1,0 +1,3395 @@
+{
+    "error": false,
+    "errormsg": "",
+    "sessionid": "cm1797v3h3daa2nean3tn8fu93",
+    "itemid": "8391",
+    "columns": {
+        "warehouse": {
+            "onhand": {
+                "heading": "On Hand",
+                "headingjustify": "r",
+                "datajustify": "r"
+            },
+            "onorder": {
+                "heading": "On Order",
+                "headingjustify": "r",
+                "datajustify": "r"
+            },
+            "committed": {
+                "heading": "Committed",
+                "headingjustify": "r",
+                "datajustify": "r"
+            },
+            "allocated": {
+                "heading": "Allocated",
+                "headingjustify": "r",
+                "datajustify": "r"
+            },
+            "available": {
+                "heading": "Available",
+                "headingjustify": "r",
+                "datajustify": "r"
+            },
+            "specorder": {
+                "heading": "SO",
+                "headingjustify": "c",
+                "datajustify": "c"
+            },
+            "orderpoint": {
+                "heading": "Order Point",
+                "headingjustify": "r",
+                "datajustify": "r"
+            },
+            "orderqty": {
+                "heading": "Order Qty",
+                "headingjustify": "r",
+                "datajustify": "r"
+            },
+            "ordermax": {
+                "heading": "Maximum",
+                "headingjustify": "r",
+                "datajustify": "r"
+            }
+        },
+        "lots": {
+            "Lot Number": {
+                "heading": "Lot Number",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "Bin": {
+                "heading": "Bin",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "Lot Reference": {
+                "heading": "Lot Reference",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "Country": {
+                "heading": "Ctry",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "On Hand": {
+                "heading": "On Hand",
+                "headingjustify": "r",
+                "datajustify": "r"
+            },
+            "Allocated": {
+                "heading": "Allo/Slct",
+                "headingjustify": "r",
+                "datajustify": "r"
+            },
+            "Status": {
+                "heading": "",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "Unit Cost": {
+                "heading": "U-Cost",
+                "headingjustify": "r",
+                "datajustify": "r"
+            }
+        },
+        "orders": {
+            "source": {
+                "heading": "Src",
+                "headingjustify": "c",
+                "datajustify": "c"
+            },
+            "order": {
+                "heading": "Order Nbr",
+                "headingjustify": "r",
+                "datajustify": "r"
+            },
+            "customer": {
+                "heading": "Customer/Vendor/Whse To",
+                "headingjustify": "c",
+                "datajustify": "l"
+            },
+            "country": {
+                "heading": "",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "selected": {
+                "heading": "Selected",
+                "headingjustify": "r",
+                "datajustify": "r"
+            },
+            "shipped": {
+                "heading": "Shipped",
+                "headingjustify": "r",
+                "datajustify": "r"
+            },
+            "status": {
+                "heading": "",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "ship date": {
+                "heading": "Ship Dte",
+                "headingjustify": "c",
+                "datajustify": "c"
+            }
+        }
+    },
+    "data": {
+        "BU": {
+            "Whse Name": "BURNSVILLE-EAGAN",
+            "onhand": "1519.00",
+            "onorder": "367.00",
+            "committed": "1699.00",
+            "allocated": "0.00",
+            "available": "-180.00",
+            "specorder": "S",
+            "orderpoint": "0.00",
+            "orderqty": "0.00",
+            "ordermax": "0.00",
+            "lots": {
+                "1": {
+                    "Lot Number": "K091500004",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "-7.00",
+                    "Allocated": "0.00",
+                    "Status": "",
+                    "Unit Cost": "0.00",
+                    "orders": {
+                    }
+                },
+                "2": {
+                    "Lot Number": "P051400004",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                    }
+                },
+                "3": {
+                    "Lot Number": "P051500001",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.50",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                    }
+                },
+                "4": {
+                    "Lot Number": "P051500002",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.50",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                    }
+                },
+                "5": {
+                    "Lot Number": "P051500003",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.50",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                    }
+                },
+                "6": {
+                    "Lot Number": "P051500004",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.50",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                    }
+                },
+                "7": {
+                    "Lot Number": "P051500005",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.50",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                    }
+                },
+                "8": {
+                    "Lot Number": "P051500006",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.50",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                    }
+                },
+                "9": {
+                    "Lot Number": "P051800094",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4176000",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "05/18/15"
+                        }
+                    }
+                },
+                "10": {
+                    "Lot Number": "P051900002",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "5.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4177300",
+                            "customer": "ABC123 ADVANCED",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "05/19/15"
+                        }
+                    }
+                },
+                "11": {
+                    "Lot Number": "P052100008",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4179400",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "05/21/15"
+                        }
+                    }
+                },
+                "12": {
+                    "Lot Number": "P060100001",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4182800",
+                            "customer": "ABC123 ADVANCED",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "06/01/15"
+                        }
+                    }
+                },
+                "13": {
+                    "Lot Number": "P060400005",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                    }
+                },
+                "14": {
+                    "Lot Number": "P060900005",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "-10.00",
+                    "Allocated": "0.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                    }
+                },
+                "15": {
+                    "Lot Number": "P061200002",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "20.00",
+                    "Allocated": "20.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4188600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "  /  /00"
+                        },
+                        "2": {
+                            "source": "S",
+                            "order": "4189000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "06/19/15"
+                        },
+                        "3": {
+                            "source": "S",
+                            "order": "4189300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "06/30/15"
+                        },
+                        "4": {
+                            "source": "S",
+                            "order": "4189500",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "  /  /00"
+                        },
+                        "5": {
+                            "source": "S",
+                            "order": "4189600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/02/15"
+                        },
+                        "6": {
+                            "source": "S",
+                            "order": "4189800",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/06/15"
+                        },
+                        "7": {
+                            "source": "S",
+                            "order": "4189800",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/06/15"
+                        },
+                        "8": {
+                            "source": "S",
+                            "order": "4189900",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "3.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/06/15"
+                        }
+                    }
+                },
+                "16": {
+                    "Lot Number": "P070700002",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4190100",
+                            "customer": "RDB100 R D BRACKIN ENTERPRISES",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/07/15"
+                        }
+                    }
+                },
+                "17": {
+                    "Lot Number": "P070700003",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "10.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4190200",
+                            "customer": "RDB100 R D BRACKIN ENTERPRISES",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/07/15"
+                        }
+                    }
+                },
+                "18": {
+                    "Lot Number": "P072800001",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4191300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/15"
+                        }
+                    }
+                },
+                "19": {
+                    "Lot Number": "P080300001",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4191400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/03/15"
+                        }
+                    }
+                },
+                "20": {
+                    "Lot Number": "P080500002",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4191700",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/05/15"
+                        }
+                    }
+                },
+                "21": {
+                    "Lot Number": "P081700002",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "51.00",
+                    "Allocated": "51.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4192200",
+                            "customer": "RDB100 R D BRACKIN ENTERPRISES",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/07/15"
+                        },
+                        "2": {
+                            "source": "S",
+                            "order": "4193100",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/02/15"
+                        },
+                        "3": {
+                            "source": "S",
+                            "order": "4193300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/13/15"
+                        },
+                        "4": {
+                            "source": "S",
+                            "order": "4193400",
+                            "customer": "RDB100 R D BRACKIN ENTERPRISES",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/13/15"
+                        },
+                        "5": {
+                            "source": "S",
+                            "order": "4193800",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/14/15"
+                        },
+                        "6": {
+                            "source": "S",
+                            "order": "4193900",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/14/15"
+                        },
+                        "7": {
+                            "source": "S",
+                            "order": "4194000",
+                            "customer": "INDEQT INDUSTRIAL EQUIPMENT COMPANY",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/14/15"
+                        },
+                        "8": {
+                            "source": "S",
+                            "order": "4194300",
+                            "customer": "PALCO  PALCO MARKETING",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/15/15"
+                        },
+                        "9": {
+                            "source": "S",
+                            "order": "4194400",
+                            "customer": "LADUKE LADUKE ROOFING & SHEET METAL",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/15/15"
+                        }
+                    }
+                },
+                "22": {
+                    "Lot Number": "P102000002",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "499.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                    }
+                },
+                "23": {
+                    "Lot Number": "P102000003",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "250.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                    }
+                },
+                "24": {
+                    "Lot Number": "P111200001",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "3.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4195700",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "3.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/12/15"
+                        }
+                    }
+                },
+                "25": {
+                    "Lot Number": "P113000001",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4196300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/30/15"
+                        }
+                    }
+                },
+                "26": {
+                    "Lot Number": "P121100001",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4196800",
+                            "customer": "WEBORD Default Web Order Customer",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/11/15"
+                        }
+                    }
+                },
+                "27": {
+                    "Lot Number": "P121100002",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4196900",
+                            "customer": "WEBORD Default Web Order Customer",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/11/15"
+                        }
+                    }
+                },
+                "28": {
+                    "Lot Number": "P121100003",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4197000",
+                            "customer": "WEBORD Default Web Order Customer",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/11/15"
+                        }
+                    }
+                },
+                "29": {
+                    "Lot Number": "P121500001",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4197400",
+                            "customer": "WEBORD Default Web Order Customer",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/15/15"
+                        }
+                    }
+                },
+                "30": {
+                    "Lot Number": "P122800001",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4198600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/28/15"
+                        }
+                    }
+                },
+                "31": {
+                    "Lot Number": "P122800002",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4198700",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/28/15"
+                        }
+                    }
+                },
+                "32": {
+                    "Lot Number": "P123000001",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4198900",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/30/15"
+                        }
+                    }
+                },
+                "33": {
+                    "Lot Number": "P123000003",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4199100",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/30/15"
+                        }
+                    }
+                },
+                "34": {
+                    "Lot Number": "Q012500004",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "5.00",
+                    "Allocated": "5.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4200300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/14/16"
+                        }
+                    }
+                },
+                "35": {
+                    "Lot Number": "Q012600002",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "5.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4200300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/14/16"
+                        }
+                    }
+                },
+                "36": {
+                    "Lot Number": "Q012600003",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4200400",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/26/16"
+                        }
+                    }
+                },
+                "37": {
+                    "Lot Number": "Q020100001",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4200800",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/01/16"
+                        }
+                    }
+                },
+                "38": {
+                    "Lot Number": "Q020100002",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4200900",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/01/16"
+                        }
+                    }
+                },
+                "39": {
+                    "Lot Number": "Q021000002",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "3.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4202300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "3.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/10/16"
+                        }
+                    }
+                },
+                "40": {
+                    "Lot Number": "Q021000005",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "28.00",
+                    "Allocated": "28.00",
+                    "Status": "",
+                    "Unit Cost": "15.75",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4203300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/12/16"
+                        },
+                        "2": {
+                            "source": "S",
+                            "order": "4203900",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/11/16"
+                        },
+                        "3": {
+                            "source": "S",
+                            "order": "4203900",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/13/00"
+                        },
+                        "4": {
+                            "source": "S",
+                            "order": "4203900",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/13/00"
+                        },
+                        "5": {
+                            "source": "S",
+                            "order": "4204000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/12/00"
+                        },
+                        "6": {
+                            "source": "S",
+                            "order": "4204300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/26/16"
+                        },
+                        "7": {
+                            "source": "S",
+                            "order": "4204400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/26/16"
+                        },
+                        "8": {
+                            "source": "S",
+                            "order": "4204900",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "03/03/16"
+                        },
+                        "9": {
+                            "source": "S",
+                            "order": "4211300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/01/16"
+                        }
+                    }
+                },
+                "41": {
+                    "Lot Number": "Q021000009",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "2.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4205900",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "04/18/16"
+                        },
+                        "2": {
+                            "source": "S",
+                            "order": "4211300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/01/16"
+                        }
+                    }
+                },
+                "42": {
+                    "Lot Number": "Q022600003",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "726.00",
+                    "Allocated": "726.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4206400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "06/06/16"
+                        },
+                        "2": {
+                            "source": "S",
+                            "order": "4206600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "06/14/16"
+                        },
+                        "3": {
+                            "source": "S",
+                            "order": "4206800",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "06/20/16"
+                        },
+                        "4": {
+                            "source": "S",
+                            "order": "4207200",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/13/00"
+                        },
+                        "5": {
+                            "source": "S",
+                            "order": "4207200",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/13/00"
+                        },
+                        "6": {
+                            "source": "S",
+                            "order": "4207500",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/25/16"
+                        },
+                        "7": {
+                            "source": "S",
+                            "order": "4207600",
+                            "customer": "RDB100 R D BRACKIN ENTERPRISES",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/31/16"
+                        },
+                        "8": {
+                            "source": "S",
+                            "order": "4207900",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/13/16"
+                        },
+                        "9": {
+                            "source": "S",
+                            "order": "4208200",
+                            "customer": "RDB100 R D BRACKIN ENTERPRISES",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/14/16"
+                        },
+                        "10": {
+                            "source": "S",
+                            "order": "4208500",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "90.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/14/16"
+                        },
+                        "11": {
+                            "source": "S",
+                            "order": "4208600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/21/16"
+                        },
+                        "12": {
+                            "source": "S",
+                            "order": "4209100",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/12/16"
+                        },
+                        "13": {
+                            "source": "S",
+                            "order": "4209400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/18/16"
+                        },
+                        "14": {
+                            "source": "S",
+                            "order": "4209500",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/18/16"
+                        },
+                        "15": {
+                            "source": "S",
+                            "order": "4211300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/01/16"
+                        },
+                        "16": {
+                            "source": "S",
+                            "order": "4211400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/02/16"
+                        },
+                        "17": {
+                            "source": "S",
+                            "order": "4211500",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/02/16"
+                        },
+                        "18": {
+                            "source": "S",
+                            "order": "4211600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/02/16"
+                        },
+                        "19": {
+                            "source": "S",
+                            "order": "4213800",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/11/16"
+                        },
+                        "20": {
+                            "source": "S",
+                            "order": "4211600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/17/16"
+                        },
+                        "21": {
+                            "source": "S",
+                            "order": "4215500",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/07/16"
+                        },
+                        "22": {
+                            "source": "S",
+                            "order": "4215500",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "12.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/12/16"
+                        },
+                        "23": {
+                            "source": "S",
+                            "order": "4215600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "4.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/13/16"
+                        },
+                        "24": {
+                            "source": "S",
+                            "order": "4215700",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/13/16"
+                        },
+                        "25": {
+                            "source": "S",
+                            "order": "4215900",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/15/16"
+                        },
+                        "26": {
+                            "source": "S",
+                            "order": "4216000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/19/16"
+                        },
+                        "27": {
+                            "source": "S",
+                            "order": "4216200",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/28/16"
+                        },
+                        "28": {
+                            "source": "S",
+                            "order": "4216300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/28/16"
+                        },
+                        "29": {
+                            "source": "S",
+                            "order": "4216400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/28/16"
+                        },
+                        "30": {
+                            "source": "S",
+                            "order": "4216800",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/29/16"
+                        },
+                        "31": {
+                            "source": "S",
+                            "order": "4217000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/05/17"
+                        },
+                        "32": {
+                            "source": "S",
+                            "order": "4217000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/05/17"
+                        },
+                        "33": {
+                            "source": "S",
+                            "order": "4217000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/05/17"
+                        },
+                        "34": {
+                            "source": "S",
+                            "order": "4217000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/05/17"
+                        },
+                        "35": {
+                            "source": "S",
+                            "order": "4217400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/12/17"
+                        },
+                        "36": {
+                            "source": "S",
+                            "order": "4217600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/12/17"
+                        },
+                        "37": {
+                            "source": "S",
+                            "order": "4217700",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/12/17"
+                        },
+                        "38": {
+                            "source": "S",
+                            "order": "4218100",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/20/17"
+                        },
+                        "39": {
+                            "source": "S",
+                            "order": "4218100",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/20/17"
+                        },
+                        "40": {
+                            "source": "S",
+                            "order": "4217700",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/12/17"
+                        },
+                        "41": {
+                            "source": "S",
+                            "order": "4219000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/24/17"
+                        },
+                        "42": {
+                            "source": "S",
+                            "order": "4219400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/25/17"
+                        },
+                        "43": {
+                            "source": "S",
+                            "order": "4219900",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/30/17"
+                        },
+                        "44": {
+                            "source": "S",
+                            "order": "4220000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/30/17"
+                        },
+                        "45": {
+                            "source": "S",
+                            "order": "4220400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/01/17"
+                        },
+                        "46": {
+                            "source": "S",
+                            "order": "4220500",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/01/17"
+                        },
+                        "47": {
+                            "source": "S",
+                            "order": "4220600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/01/17"
+                        },
+                        "48": {
+                            "source": "S",
+                            "order": "4220700",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/01/17"
+                        },
+                        "49": {
+                            "source": "S",
+                            "order": "4220800",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "3.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/01/17"
+                        },
+                        "50": {
+                            "source": "S",
+                            "order": "4220800",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/01/17"
+                        },
+                        "51": {
+                            "source": "S",
+                            "order": "4223000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/07/17"
+                        },
+                        "52": {
+                            "source": "S",
+                            "order": "4223200",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/07/17"
+                        },
+                        "53": {
+                            "source": "S",
+                            "order": "4223300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/07/17"
+                        },
+                        "54": {
+                            "source": "S",
+                            "order": "4223400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/09/17"
+                        },
+                        "55": {
+                            "source": "S",
+                            "order": "4223600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/10/17"
+                        },
+                        "56": {
+                            "source": "S",
+                            "order": "4223700",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/13/17"
+                        },
+                        "57": {
+                            "source": "S",
+                            "order": "4224000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "02/24/17"
+                        },
+                        "58": {
+                            "source": "S",
+                            "order": "4224600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "03/02/17"
+                        },
+                        "59": {
+                            "source": "S",
+                            "order": "4224700",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "03/02/17"
+                        },
+                        "60": {
+                            "source": "S",
+                            "order": "4225200",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "25.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "03/06/17"
+                        },
+                        "61": {
+                            "source": "S",
+                            "order": "4225300",
+                            "customer": "LOWRY  LOWRY COMPUTER PRODUCTS",
+                            "country": "",
+                            "selected": "12.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "03/08/17"
+                        },
+                        "62": {
+                            "source": "S",
+                            "order": "4225500",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "03/14/17"
+                        },
+                        "63": {
+                            "source": "S",
+                            "order": "4226400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "50.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "03/31/17"
+                        },
+                        "64": {
+                            "source": "S",
+                            "order": "4226600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "25.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "04/06/17"
+                        },
+                        "65": {
+                            "source": "S",
+                            "order": "4144200",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "12.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "01/08/13"
+                        },
+                        "66": {
+                            "source": "S",
+                            "order": "4227900",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "4.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "05/04/17"
+                        },
+                        "67": {
+                            "source": "S",
+                            "order": "4228200",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "05/15/17"
+                        },
+                        "68": {
+                            "source": "S",
+                            "order": "4228400",
+                            "customer": "RDB100 R D BRACKIN ENTERPRISES",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "05/16/17"
+                        },
+                        "69": {
+                            "source": "S",
+                            "order": "4228500",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "05/16/17"
+                        },
+                        "70": {
+                            "source": "S",
+                            "order": "4194700",
+                            "customer": "KARLSO KARLSON ENTERPRISES, INC.",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "12/20/15"
+                        },
+                        "71": {
+                            "source": "S",
+                            "order": "4228800",
+                            "customer": "RDB100 R D BRACKIN ENTERPRISES",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "05/18/17"
+                        },
+                        "72": {
+                            "source": "S",
+                            "order": "4229400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "06/15/17"
+                        },
+                        "73": {
+                            "source": "S",
+                            "order": "4102500",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/13/07"
+                        },
+                        "74": {
+                            "source": "S",
+                            "order": "4102500",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/13/07"
+                        },
+                        "75": {
+                            "source": "S",
+                            "order": "4102500",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/13/07"
+                        },
+                        "76": {
+                            "source": "S",
+                            "order": "4102500",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/13/07"
+                        },
+                        "77": {
+                            "source": "S",
+                            "order": "4102500",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "3.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/13/07"
+                        },
+                        "78": {
+                            "source": "S",
+                            "order": "4102500",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/13/07"
+                        },
+                        "79": {
+                            "source": "S",
+                            "order": "4102500",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/13/07"
+                        },
+                        "80": {
+                            "source": "S",
+                            "order": "4102500",
+                            "customer": "PARK   PARK SUPPLY, INC.",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/13/07"
+                        },
+                        "81": {
+                            "source": "S",
+                            "order": "4229600",
+                            "customer": "ALLEGI ALLEGIS CORPORATION",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "06/27/17"
+                        },
+                        "82": {
+                            "source": "S",
+                            "order": "4229800",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "06/27/17"
+                        },
+                        "83": {
+                            "source": "S",
+                            "order": "4122301",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "3.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/17/16"
+                        },
+                        "84": {
+                            "source": "S",
+                            "order": "4230000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "12.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "06/29/17"
+                        },
+                        "85": {
+                            "source": "S",
+                            "order": "4230100",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "3.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/07/17"
+                        },
+                        "86": {
+                            "source": "S",
+                            "order": "4230100",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/07/17"
+                        },
+                        "87": {
+                            "source": "S",
+                            "order": "4230600",
+                            "customer": "RDB100 R D BRACKIN ENTERPRISES",
+                            "country": "",
+                            "selected": "3.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/18/17"
+                        },
+                        "88": {
+                            "source": "S",
+                            "order": "4230700",
+                            "customer": "RDB100 R D BRACKIN ENTERPRISES",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/18/17"
+                        },
+                        "89": {
+                            "source": "S",
+                            "order": "4230800",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/21/17"
+                        },
+                        "90": {
+                            "source": "S",
+                            "order": "4230900",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/21/17"
+                        },
+                        "91": {
+                            "source": "S",
+                            "order": "4231000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/21/17"
+                        },
+                        "92": {
+                            "source": "S",
+                            "order": "4231100",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/21/17"
+                        },
+                        "93": {
+                            "source": "S",
+                            "order": "4231200",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/21/17"
+                        },
+                        "94": {
+                            "source": "S",
+                            "order": "4231300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/21/17"
+                        },
+                        "95": {
+                            "source": "S",
+                            "order": "4231400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/21/17"
+                        },
+                        "96": {
+                            "source": "S",
+                            "order": "4231500",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/21/17"
+                        },
+                        "97": {
+                            "source": "S",
+                            "order": "4231600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/24/17"
+                        },
+                        "98": {
+                            "source": "S",
+                            "order": "4231700",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/21/17"
+                        },
+                        "99": {
+                            "source": "S",
+                            "order": "4231800",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/21/17"
+                        },
+                        "100": {
+                            "source": "S",
+                            "order": "4231900",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/21/17"
+                        },
+                        "101": {
+                            "source": "S",
+                            "order": "4232000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "12.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/21/17"
+                        },
+                        "102": {
+                            "source": "S",
+                            "order": "4232100",
+                            "customer": "778158 TIMBERLINE FASTENERS",
+                            "country": "",
+                            "selected": "12.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/24/17"
+                        },
+                        "103": {
+                            "source": "S",
+                            "order": "4232400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/25/17"
+                        },
+                        "104": {
+                            "source": "S",
+                            "order": "4233400",
+                            "customer": "NUWRLD NU-WORLD",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/26/17"
+                        },
+                        "105": {
+                            "source": "S",
+                            "order": "4232600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/25/17"
+                        },
+                        "106": {
+                            "source": "S",
+                            "order": "4233900",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "107": {
+                            "source": "S",
+                            "order": "4234000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "108": {
+                            "source": "S",
+                            "order": "4234000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "4.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "109": {
+                            "source": "S",
+                            "order": "4234100",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "110": {
+                            "source": "S",
+                            "order": "4234100",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "4.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "111": {
+                            "source": "S",
+                            "order": "4234200",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "112": {
+                            "source": "S",
+                            "order": "4234200",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "4.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "113": {
+                            "source": "S",
+                            "order": "4234300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "114": {
+                            "source": "S",
+                            "order": "4234400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/25/17"
+                        },
+                        "115": {
+                            "source": "S",
+                            "order": "4234500",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "116": {
+                            "source": "S",
+                            "order": "4234600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "117": {
+                            "source": "S",
+                            "order": "4234800",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "118": {
+                            "source": "S",
+                            "order": "4234900",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "119": {
+                            "source": "S",
+                            "order": "4235000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "120": {
+                            "source": "S",
+                            "order": "4235000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "4.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "121": {
+                            "source": "S",
+                            "order": "4235100",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "122": {
+                            "source": "S",
+                            "order": "4235100",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "4.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "123": {
+                            "source": "S",
+                            "order": "4235200",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "4.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "124": {
+                            "source": "S",
+                            "order": "4235300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "4.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "125": {
+                            "source": "S",
+                            "order": "4235400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "4.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "126": {
+                            "source": "S",
+                            "order": "4235500",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "127": {
+                            "source": "S",
+                            "order": "4235600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "128": {
+                            "source": "S",
+                            "order": "4236100",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "129": {
+                            "source": "S",
+                            "order": "4236200",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "5.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "130": {
+                            "source": "S",
+                            "order": "4236300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "4.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        }
+                    }
+                },
+                "43": {
+                    "Lot Number": "Q032900002",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "189.00",
+                    "Allocated": "189.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4236300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "07/28/17"
+                        },
+                        "2": {
+                            "source": "S",
+                            "order": "4236800",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/07/17"
+                        },
+                        "3": {
+                            "source": "S",
+                            "order": "4236800",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/07/17"
+                        },
+                        "4": {
+                            "source": "S",
+                            "order": "4237100",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/11/17"
+                        },
+                        "5": {
+                            "source": "S",
+                            "order": "4237200",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/16/17"
+                        },
+                        "6": {
+                            "source": "S",
+                            "order": "4237300",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/16/17"
+                        },
+                        "7": {
+                            "source": "S",
+                            "order": "4237600",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/23/17"
+                        },
+                        "8": {
+                            "source": "S",
+                            "order": "4238500",
+                            "customer": "FLBEEF FLORIDA BEEF",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/24/17"
+                        },
+                        "9": {
+                            "source": "S",
+                            "order": "4238700",
+                            "customer": "AIRQUA AIR QUALITY ENGINEERING",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/25/17"
+                        },
+                        "10": {
+                            "source": "S",
+                            "order": "4238800",
+                            "customer": "ALLEGI ALLEGIS CORPORATION",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/25/17"
+                        },
+                        "11": {
+                            "source": "S",
+                            "order": "4239200",
+                            "customer": "ALLEGI ALLEGIS CORPORATION",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/30/17"
+                        },
+                        "12": {
+                            "source": "S",
+                            "order": "4239500",
+                            "customer": "ALLEGI ALLEGIS CORPORATION",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/30/17"
+                        },
+                        "13": {
+                            "source": "S",
+                            "order": "4239600",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/31/17"
+                        },
+                        "14": {
+                            "source": "S",
+                            "order": "4239900",
+                            "customer": "ALLEGI ALLEGIS CORPORATION",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/06/17"
+                        },
+                        "15": {
+                            "source": "S",
+                            "order": "4240000",
+                            "customer": "ACTIVE ACTIVE INTEGRATION",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/06/17"
+                        },
+                        "16": {
+                            "source": "S",
+                            "order": "4240400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "25.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/14/17"
+                        },
+                        "17": {
+                            "source": "S",
+                            "order": "4241000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/14/17"
+                        },
+                        "18": {
+                            "source": "S",
+                            "order": "4241900",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/21/17"
+                        },
+                        "19": {
+                            "source": "S",
+                            "order": "4242100",
+                            "customer": "AMAZON AMAZON ORGANICS",
+                            "country": "",
+                            "selected": "112.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/26/17"
+                        }
+                    }
+                },
+                "44": {
+                    "Lot Number": "Q072600002",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "50.00",
+                    "Allocated": "50.00",
+                    "Status": "",
+                    "Unit Cost": "19.53",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4242100",
+                            "customer": "AMAZON AMAZON ORGANICS",
+                            "country": "",
+                            "selected": "50.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/26/17"
+                        }
+                    }
+                },
+                "45": {
+                    "Lot Number": "Q120600002",
+                    "Bin": "+",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "10.00",
+                    "Allocated": "10.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4242100",
+                            "customer": "AMAZON AMAZON ORGANICS",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/26/17"
+                        }
+                    }
+                },
+                "46": {
+                    "Lot Number": "R020900004",
+                    "Bin": "RECEIVE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "10.00",
+                    "Allocated": "10.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4242100",
+                            "customer": "AMAZON AMAZON ORGANICS",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/26/17"
+                        }
+                    }
+                },
+                "47": {
+                    "Lot Number": "R031500002",
+                    "Bin": "RECEIVE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "200.00",
+                    "Allocated": "200.00",
+                    "Status": "",
+                    "Unit Cost": "24.59",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4242100",
+                            "customer": "AMAZON AMAZON ORGANICS",
+                            "country": "",
+                            "selected": "168.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/26/17"
+                        },
+                        "2": {
+                            "source": "S",
+                            "order": "4242200",
+                            "customer": "548542 Barnes Distribution",
+                            "country": "",
+                            "selected": "15.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/26/17"
+                        },
+                        "3": {
+                            "source": "S",
+                            "order": "4242400",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/02/17"
+                        },
+                        "4": {
+                            "source": "S",
+                            "order": "4242600",
+                            "customer": "WEBORD Default Web Order Customer",
+                            "country": "",
+                            "selected": "3.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/09/17"
+                        },
+                        "5": {
+                            "source": "S",
+                            "order": "4242900",
+                            "customer": "WEBORD Default Web Order Customer",
+                            "country": "",
+                            "selected": "3.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/11/17"
+                        },
+                        "6": {
+                            "source": "S",
+                            "order": "4243300",
+                            "customer": "ALLEGI ALLEGIS CORPORATION",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/17/17"
+                        }
+                    }
+                },
+                "48": {
+                    "Lot Number": "R051600004",
+                    "Bin": "RECEIVE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "40.00",
+                    "Allocated": "40.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4244400",
+                            "customer": "548542 Barnes Distribution",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/25/17"
+                        },
+                        "2": {
+                            "source": "S",
+                            "order": "4244700",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/26/17"
+                        },
+                        "3": {
+                            "source": "S",
+                            "order": "4244800",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/26/17"
+                        },
+                        "4": {
+                            "source": "S",
+                            "order": "4245000",
+                            "customer": "ALLEGI ALLEGIS CORPORATION",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/27/17"
+                        },
+                        "5": {
+                            "source": "S",
+                            "order": "4245300",
+                            "customer": "APPPOW APPLIED POWER PRODUCTS",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/31/17"
+                        },
+                        "6": {
+                            "source": "S",
+                            "order": "4245800",
+                            "customer": "ACTIVE ACTIVE INTEGRATION",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/08/17"
+                        },
+                        "7": {
+                            "source": "S",
+                            "order": "4245900",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/08/17"
+                        },
+                        "8": {
+                            "source": "S",
+                            "order": "4246000",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/08/17"
+                        }
+                    }
+                },
+                "49": {
+                    "Lot Number": "R081100002",
+                    "Bin": "RECEIVE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "50.00",
+                    "Allocated": "14.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4246100",
+                            "customer": "BECKER Voss Honda",
+                            "country": "",
+                            "selected": "10.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/08/17"
+                        },
+                        "2": {
+                            "source": "S",
+                            "order": "4246300",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/15/17"
+                        },
+                        "3": {
+                            "source": "S",
+                            "order": "4246400",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "11/17/17"
+                        }
+                    }
+                },
+                "50": {
+                    "Lot Number": "R081100004",
+                    "Bin": "RECEIVE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "100.00",
+                    "Allocated": "0.00",
+                    "Status": "",
+                    "Unit Cost": "21.75",
+                    "orders": {
+                    }
+                },
+                "51": {
+                    "Lot Number": "R091400004",
+                    "Bin": "RECEIVE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "5.00",
+                    "Allocated": "0.00",
+                    "Status": "",
+                    "Unit Cost": "22.25",
+                    "orders": {
+                    }
+                },
+                "52": {
+                    "Lot Number": "R120600004",
+                    "Bin": "RECEIVE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "50.00",
+                    "Allocated": "0.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                    }
+                }
+            }
+        },
+        "01": {
+            "Whse Name": "CP Tech 01 Warehouse",
+            "onhand": "0.00",
+            "onorder": "0.00",
+            "committed": "1.00",
+            "allocated": "0.00",
+            "available": "-1.00",
+            "specorder": "N",
+            "orderpoint": "0.00",
+            "orderqty": "0.00",
+            "ordermax": "0.00",
+            "lots": {
+            }
+        },
+        "AL": {
+            "Whse Name": "POD ON ALEXANDRIA ST",
+            "onhand": "0.00",
+            "onorder": "0.00",
+            "committed": "11.00",
+            "allocated": "0.00",
+            "available": "-11.00",
+            "specorder": "S",
+            "orderpoint": "0.00",
+            "orderqty": "0.00",
+            "ordermax": "0.00",
+            "lots": {
+                "1": {
+                    "Lot Number": "P052900002",
+                    "Bin": "",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4181500",
+                            "customer": "600816 DEER VALLEY HOMEBUILDERS",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "05/29/15"
+                        }
+                    }
+                }
+            }
+        },
+        "EF": {
+            "Whse Name": "FARM WAREHOUSE",
+            "onhand": "25.00",
+            "onorder": "25.00",
+            "committed": "1.00",
+            "allocated": "0.00",
+            "available": "24.00",
+            "specorder": "S",
+            "orderpoint": "0.00",
+            "orderqty": "0.00",
+            "ordermax": "0.00",
+            "lots": {
+                "1": {
+                    "Lot Number": "K111100004",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "25.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "3.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4176800",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "05/18/15"
+                        }
+                    }
+                }
+            }
+        },
+        "LA": {
+            "Whse Name": "LAX",
+            "onhand": "0.00",
+            "onorder": "0.00",
+            "committed": "15.00",
+            "allocated": "0.00",
+            "available": "-15.00",
+            "specorder": "N",
+            "orderpoint": "0.00",
+            "orderqty": "0.00",
+            "ordermax": "0.00",
+            "lots": {
+                "1": {
+                    "Lot Number": "R082300003",
+                    "Bin": "",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "21.75",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4237800",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/23/17"
+                        }
+                    }
+                },
+                "2": {
+                    "Lot Number": "R082300005",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "21.75",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4237900",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/23/17"
+                        }
+                    }
+                },
+                "3": {
+                    "Lot Number": "R082500007",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "21.75",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4238200",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/23/17"
+                        }
+                    }
+                },
+                "4": {
+                    "Lot Number": "R082800002",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "21.75",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4238900",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/28/17"
+                        }
+                    }
+                },
+                "5": {
+                    "Lot Number": "R082800004",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "21.75",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4238900",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/28/17"
+                        }
+                    }
+                },
+                "6": {
+                    "Lot Number": "R091900001",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4241200",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "09/19/17"
+                        }
+                    }
+                },
+                "7": {
+                    "Lot Number": "R101700004",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4243600",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "10/17/17"
+                        }
+                    }
+                },
+                "8": {
+                    "Lot Number": "R101700007",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4243700",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "2.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "08/28/17"
+                        }
+                    }
+                }
+            }
+        },
+        "NU": {
+            "Whse Name": "Nue Port",
+            "onhand": "0.00",
+            "onorder": "0.00",
+            "committed": "42.00",
+            "allocated": "0.00",
+            "available": "-42.00",
+            "specorder": "S",
+            "orderpoint": "0.00",
+            "orderqty": "0.00",
+            "ordermax": "0.00",
+            "lots": {
+                "1": {
+                    "Lot Number": "P052900003",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                        "1": {
+                            "source": "S",
+                            "order": "4181600",
+                            "customer": "JAMES  JAMES SUPPLIES",
+                            "country": "",
+                            "selected": "1.00",
+                            "shipped": "0.00",
+                            "status": "",
+                            "ship date": "05/29/15"
+                        }
+                    }
+                },
+                "2": {
+                    "Lot Number": "P052900005",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "12.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                    }
+                },
+                "3": {
+                    "Lot Number": "P060400002",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "1.00",
+                    "Status": "",
+                    "Unit Cost": "25.00",
+                    "orders": {
+                    }
+                },
+                "4": {
+                    "Lot Number": "R082100002",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "21.75",
+                    "orders": {
+                    }
+                },
+                "5": {
+                    "Lot Number": "R082100003",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "21.75",
+                    "orders": {
+                    }
+                },
+                "6": {
+                    "Lot Number": "R082100004",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "3.00",
+                    "Status": "",
+                    "Unit Cost": "21.75",
+                    "orders": {
+                    }
+                },
+                "7": {
+                    "Lot Number": "R082100005",
+                    "Bin": "WHSE",
+                    "Lot Reference": "",
+                    "Country": "",
+                    "On Hand": "0.00",
+                    "Allocated": "2.00",
+                    "Status": "",
+                    "Unit Cost": "21.75",
+                    "orders": {
+                    }
+                }
+            }
+        },
+        "zz": {
+            "Whse Name": "All Warehouses",
+            "onhand": "1544.00",
+            "onorder": "392.00",
+            "committed": "1769.00",
+            "allocated": "0.00",
+            "available": "-225.00",
+            "specorder": "",
+            "orderpoint": "",
+            "orderqty": "",
+            "ordermax": ""
+        }
+    }
+}

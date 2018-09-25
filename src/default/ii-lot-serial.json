@@ -1,0 +1,53 @@
+{
+	"cols": 6,
+	"detail" : {
+		"rows": 1,
+		"columns": {
+			"warehouse": {
+				"line": 1,
+				"column": 1,
+				"col-length": 1,
+				"label": "Warehouse",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+			"warehouse city": {
+				"line": 0,
+				"column": 0,
+				"col-length": 0,
+				"label": "Whse City",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+			"lot/serial": {
+				"line": 1,
+				"column": 2,
+				"col-length": 1,
+				"label": "Lot / Serial",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+			"bin": {
+				"line": 1,
+				"column": 3,
+				"col-length": 1,
+				"label": "Bin #",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+			"lot reference": {
+				"line": 1,
+				"column": 4,
+				"col-length": 1,
+				"label": "Lot Ref",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			}
+		}
+	}
+}

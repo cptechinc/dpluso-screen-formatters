@@ -1,0 +1,56 @@
+{
+    "error": false,
+    "errormsg": "",
+    "sessionid": "raoov34cvjcmh9aloaqjnq5296",
+    "itemid": "10-991",
+    "columns": {
+        "warehouse": {
+            "heading": "WH",
+            "headingjustify": "l",
+            "datajustify": "l",
+            "sortavailable": "y"
+        },
+        "warehouse city": {
+            "heading": "Warehouse City",
+            "headingjustify": "l",
+            "datajustify": "l",
+            "sortavailable": "n"
+        },
+        "lot/serial": {
+            "heading": "Lot/Serial Number",
+            "headingjustify": "l",
+            "datajustify": "l",
+            "sortavailable": "y"
+        },
+        "bin": {
+            "heading": "Bin Nbr",
+            "headingjustify": "l",
+            "datajustify": "l",
+            "sortavailable": "y"
+        },
+        "lot reference": {
+            "heading": "Lot Reference",
+            "headingjustify": "l",
+            "datajustify": "l",
+            "sortavailable": "n"
+        }
+    },
+    "data": {
+        "lots": {
+            "1": {
+                "warehouse": "1",
+                "warehouse city": "GOLDEN VALLEY",
+                "lot/serial": "R120700003",
+                "bin": "",
+                "lot reference": "C10415036"
+            },
+            "2": {
+                "warehouse": "1",
+                "warehouse city": "GOLDEN VALLEY",
+                "lot/serial": "R122900009",
+                "bin": "",
+                "lot reference": "C10415035"
+            }
+        }
+    }
+}

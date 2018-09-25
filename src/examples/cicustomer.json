@@ -1,0 +1,268 @@
+{
+    "error": false,
+    "errormsg": "",
+    "sessionid": "jb61a27e2naslmom3tm9gu13e2",
+    "custid": "1032",
+    "shiptocount": "8",
+    "columns": {
+        "top": {
+            "customerid": {
+                "heading": "Customer ID",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "customername": {
+                "heading": "",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "customeradr1": {
+                "heading": "",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "customeradr2": {
+                "heading": "",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "customeradr3": {
+                "heading": "",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "customeradr4": {
+                "heading": "",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "customeradr5": {
+                "heading": "",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "numberofshipto": {
+                "heading": "Number of Ship-To",
+                "headingjustify": "l",
+                "datajustify": "r"
+            },
+            "salesperson1": {
+                "heading": "Slspsn",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "salesperson2": {
+                "heading": "",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "salesperson3": {
+                "heading": "",
+                "headingjustify": "l",
+                "datajustify": "l"
+            }
+        },
+        "left": {
+            "phone": {
+                "heading": "Phone",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "fax": {
+                "heading": "Fax",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "warehouse": {
+                "heading": "Warehouse",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "shipvia": {
+                "heading": "Ship Via",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "taxcode": {
+                "heading": "Tax Code",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "taxexempt": {
+                "heading": "Tax Exempt",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "termcode": {
+                "heading": "Term Code",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "typecode": {
+                "heading": "Type Code",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "pricecode": {
+                "heading": "Price Code",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "credithold": {
+                "heading": "Credit Hold",
+                "headingjustify": "l",
+                "datajustify": "l"
+            },
+            "notes": {
+                "heading": "Notes",
+                "headingjustify": "l",
+                "datajustify": "l"
+            }
+        },
+        "right": {
+            "activity": {
+                "display": {
+                    "heading": "Activity",
+                    "headingjustify": "l",
+                    "datajustify": "l"
+                },
+                "number": {
+                    "heading": "Number",
+                    "headingjustify": "r",
+                    "datajustify": "r"
+                },
+                "amount": {
+                    "heading": "Amount",
+                    "headingjustify": "r",
+                    "datajustify": "r"
+                }
+            },
+            "saleshistory": {
+                "display": {
+                    "heading": "Sales History",
+                    "headingjustify": "l",
+                    "datajustify": "l"
+                },
+                "amount": {
+                    "heading": "Amount",
+                    "headingjustify": "r",
+                    "datajustify": "r"
+                },
+                "invoices": {
+                    "heading": "Invoices",
+                    "headingjustify": "r",
+                    "datajustify": "r"
+                }
+            },
+            "misc": {
+                "highestbal": {
+                    "heading": "Highest Balance",
+                    "headingjustify": "l",
+                    "datajustify": "r"
+                },
+                "creditlimit": {
+                    "heading": "Credit Limit",
+                    "headingjustify": "l",
+                    "datajustify": "r"
+                },
+                "currentfinchrg": {
+                    "heading": "Current Fin Chrg",
+                    "headingjustify": "l",
+                    "datajustify": "r"
+                },
+                "rfml": {
+                    "heading": "RFML",
+                    "headingjustify": "l",
+                    "datajustify": "r"
+                },
+                "dateentered": {
+                    "heading": "Date Entered",
+                    "headingjustify": "l",
+                    "datajustify": "l"
+                },
+                "lastsaledate": {
+                    "heading": "Last Sale Date",
+                    "headingjustify": "l",
+                    "datajustify": "l"
+                }
+            }
+        }
+    },
+    "data": {
+        "top": {
+            "customerid": "1032",
+            "customername": "UNIVERSITY OF TEXAS AT EL PASO",
+            "customeradr1": "500 W. UNIVERSITY AVENUE",
+            "customeradr2": "ATTN:  ACCOUNTS PAYABLE",
+            "customeradr3": "EL PASO          TX 79968",
+            "customeradr4": "",
+            "customeradr5": "",
+            "numberofshipto": "8",
+            "salesperson1": "Kelly",
+            "salesperson2": "",
+            "salesperson3": ""
+        },
+        "left": {
+            "phone": "915-747-8258",
+            "fax": "000-000-0000",
+            "warehouse": "1      STAT TECHNOLOGIES, INC",
+            "shipvia": "FED2   FedEx 2nd Day Air",
+            "taxcode": "TXTE   TX Exempt",
+            "taxexempt": "",
+            "termcode": "N30    NET 30 DAYS",
+            "typecode": "UNIV   University",
+            "pricecode": "T9     WEB SALES-HMSC",
+            "credithold": "No",
+            "notes": "No"
+        },
+        "right": {
+            "activity": {
+                "salesorders": {
+                    "display": "Sales Orders",
+                    "number": "0",
+                    "amount": "0.00"
+                },
+                "standingorders": {
+                    "display": "Standing Orders",
+                    "number": "0",
+                    "amount": ""
+                },
+                "openinvoices": {
+                    "display": "Open Invoices",
+                    "number": "3",
+                    "amount": "1200.64"
+                }
+            },
+            "saleshistory": {
+                "monthtodate": {
+                    "display": "Month-to-Date",
+                    "amount": "6307.67",
+                    "invoices": "4"
+                },
+                "yeartodate": {
+                    "display": "Year-to-Date",
+                    "amount": "10207.93",
+                    "invoices": "7"
+                },
+                "last12months": {
+                    "display": "Last 12 Months",
+                    "amount": "3900.26",
+                    "invoices": "3"
+                },
+                "prevfiscalyear": {
+                    "display": "Prev Fiscal Year",
+                    "amount": "0.00",
+                    "invoices": "0"
+                }
+            },
+            "misc": {
+                "highestbal": "4132.82",
+                "creditlimit": "0.00",
+                "currentfinchrg": "0.00",
+                "rfml": "18",
+                "dateentered": "07/12/2017",
+                "lastsaledate": "12/22/2017"
+            }
+        }
+    }
+}

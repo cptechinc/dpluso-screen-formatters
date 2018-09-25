@@ -1,0 +1,305 @@
+{
+    "error": false,
+    "errormsg": "",
+    "sessionid": "rigm71kdqt3f51k7fm7qt8kvu4",
+    "itemid": "8391",
+    "date": "20161219",
+    "columns": {
+        "tran type": {
+            "heading": "",
+            "headingjustify": "l",
+            "datajustify": "l"
+        },
+        "warehouse": {
+            "heading": "WH",
+            "headingjustify": "l",
+            "datajustify": "l"
+        },
+        "tran date": {
+            "heading": "Date",
+            "headingjustify": "c",
+            "datajustify": "c"
+        },
+        "tran reference": {
+            "heading": "Reference",
+            "headingjustify": "c",
+            "datajustify": "l"
+        },
+        "quantity": {
+            "heading": "Quantity",
+            "headingjustify": "r",
+            "datajustify": "r"
+        },
+        "balance": {
+            "heading": "Balance",
+            "headingjustify": "r",
+            "datajustify": "r"
+        },
+        "unit cost": {
+            "heading": "Cost",
+            "headingjustify": "r",
+            "datajustify": "r"
+        },
+        "total cost": {
+            "heading": "Amount",
+            "headingjustify": "r",
+            "datajustify": "r"
+        },
+        "lot/serial": {
+            "heading": "Lot/Serial Number",
+            "headingjustify": "l",
+            "datajustify": "l"
+        },
+        "lot bin": {
+            "heading": "Bin",
+            "headingjustify": "l",
+            "datajustify": "l"
+        },
+        "lot reference": {
+            "heading": "Lot Reference",
+            "headingjustify": "l",
+            "datajustify": "l"
+        }
+    },
+    "data": {
+        "BU": {
+            "Whse Name": "BURNSVILLE-EAGAN",
+            "orders": {
+                "1": {
+                    "tran type": "Receipt",
+                    "warehouse": "BU",
+                    "tran date": "12/06/17",
+                    "tran reference": "PO No.     7155",
+                    "quantity": "50.00",
+                    "balance": "1519.00",
+                    "unit cost": "25.00000",
+                    "total cost": "1250.00",
+                    "lot/serial": "R120600004",
+                    "lot bin": "RECEIVE",
+                    "lot reference": ""
+                },
+                "2": {
+                    "tran type": "Sale",
+                    "warehouse": "BU",
+                    "tran date": "10/26/17",
+                    "tran reference": "SO No.    4244900",
+                    "quantity": "-10.00",
+                    "balance": "1469.00",
+                    "unit cost": "22.25000",
+                    "total cost": "-222.50",
+                    "lot/serial": "R051600004",
+                    "lot bin": "RECEIVE",
+                    "lot reference": ""
+                },
+                "3": {
+                    "tran type": "Sale",
+                    "warehouse": "BU",
+                    "tran date": "09/18/17",
+                    "tran reference": "SO No.    4241100",
+                    "quantity": "-12.00",
+                    "balance": "1479.00",
+                    "unit cost": "22.25000",
+                    "total cost": "-267.00",
+                    "lot/serial": "Q032900002",
+                    "lot bin": "+",
+                    "lot reference": ""
+                },
+                "4": {
+                    "tran type": "Receipt",
+                    "warehouse": "BU",
+                    "tran date": "09/14/17",
+                    "tran reference": "PO No.     7111",
+                    "quantity": "5.00",
+                    "balance": "1491.00",
+                    "unit cost": "22.25000",
+                    "total cost": "111.25",
+                    "lot/serial": "R091400004",
+                    "lot bin": "RECEIVE",
+                    "lot reference": ""
+                },
+                "5": {
+                    "tran type": "Sale",
+                    "warehouse": "BU",
+                    "tran date": "09/11/17",
+                    "tran reference": "SO No.    4240100",
+                    "quantity": "-1.00",
+                    "balance": "1486.00",
+                    "unit cost": "22.25000",
+                    "total cost": "-22.25",
+                    "lot/serial": "Q032900002",
+                    "lot bin": "+",
+                    "lot reference": ""
+                },
+                "6": {
+                    "tran type": "Receipt",
+                    "warehouse": "BU",
+                    "tran date": "08/11/17",
+                    "tran reference": "PO No.     7135",
+                    "quantity": "100.00",
+                    "balance": "1487.00",
+                    "unit cost": "21.75000",
+                    "total cost": "2175.00",
+                    "lot/serial": "R081100004",
+                    "lot bin": "RECEIVE",
+                    "lot reference": ""
+                },
+                "7": {
+                    "tran type": "Sale",
+                    "warehouse": "BU",
+                    "tran date": "08/11/17",
+                    "tran reference": "SO No.    4237000",
+                    "quantity": "-8.00",
+                    "balance": "1387.00",
+                    "unit cost": "22.25000",
+                    "total cost": "-178.00",
+                    "lot/serial": "Q032900002",
+                    "lot bin": "+",
+                    "lot reference": ""
+                },
+                "8": {
+                    "tran type": "Receipt",
+                    "warehouse": "BU",
+                    "tran date": "08/11/17",
+                    "tran reference": "PO No.     7130",
+                    "quantity": "50.00",
+                    "balance": "1395.00",
+                    "unit cost": "22.25000",
+                    "total cost": "1112.50",
+                    "lot/serial": "R081100002",
+                    "lot bin": "RECEIVE",
+                    "lot reference": ""
+                },
+                "9": {
+                    "tran type": "Sale",
+                    "warehouse": "BU",
+                    "tran date": "08/01/17",
+                    "tran reference": "SO No.    4236000",
+                    "quantity": "-10.00",
+                    "balance": "1345.00",
+                    "unit cost": "22.25000",
+                    "total cost": "-222.50",
+                    "lot/serial": "Q022600003",
+                    "lot bin": "+",
+                    "lot reference": ""
+                },
+                "10": {
+                    "tran type": "Sale",
+                    "warehouse": "BU",
+                    "tran date": "07/26/17",
+                    "tran reference": "SO No.    4233000",
+                    "quantity": "-2.00",
+                    "balance": "1355.00",
+                    "unit cost": "22.25000",
+                    "total cost": "-44.50",
+                    "lot/serial": "Q022600003",
+                    "lot bin": "+",
+                    "lot reference": ""
+                },
+                "11": {
+                    "tran type": "Sale",
+                    "warehouse": "BU",
+                    "tran date": "07/25/17",
+                    "tran reference": "SO No.    4232500",
+                    "quantity": "-1.00",
+                    "balance": "1357.00",
+                    "unit cost": "22.25000",
+                    "total cost": "-22.25",
+                    "lot/serial": "Q022600003",
+                    "lot bin": "+",
+                    "lot reference": ""
+                },
+                "12": {
+                    "tran type": "DS Sale",
+                    "warehouse": "BU",
+                    "tran date": "06/27/17",
+                    "tran reference": "SO No.    4228300",
+                    "quantity": "-25.00",
+                    "balance": "1358.00",
+                    "unit cost": "22.25000",
+                    "total cost": "-556.25",
+                    "lot/serial": "",
+                    "lot bin": "",
+                    "lot reference": ""
+                },
+                "13": {
+                    "tran type": "Sale",
+                    "warehouse": "BU",
+                    "tran date": "05/18/17",
+                    "tran reference": "SO No.    4228100",
+                    "quantity": "-1.00",
+                    "balance": "1358.00",
+                    "unit cost": "22.25000",
+                    "total cost": "-22.25",
+                    "lot/serial": "Q022600003",
+                    "lot bin": "+",
+                    "lot reference": ""
+                },
+                "14": {
+                    "tran type": "Receipt",
+                    "warehouse": "BU",
+                    "tran date": "05/16/17",
+                    "tran reference": "PO No.     7130",
+                    "quantity": "50.00",
+                    "balance": "1359.00",
+                    "unit cost": "22.25000",
+                    "total cost": "1112.50",
+                    "lot/serial": "R051600004",
+                    "lot bin": "RECEIVE",
+                    "lot reference": ""
+                },
+                "15": {
+                    "tran type": "Sale",
+                    "warehouse": "BU",
+                    "tran date": "05/04/17",
+                    "tran reference": "SO No.    4227000",
+                    "quantity": "-50.00",
+                    "balance": "1309.00",
+                    "unit cost": "22.25000",
+                    "total cost": "-1112.50",
+                    "lot/serial": "Q022600003",
+                    "lot bin": "+",
+                    "lot reference": ""
+                },
+                "16": {
+                    "tran type": "Receipt",
+                    "warehouse": "BU",
+                    "tran date": "03/15/17",
+                    "tran reference": "PO No.     7049",
+                    "quantity": "200.00",
+                    "balance": "1359.00",
+                    "unit cost": "24.59000",
+                    "total cost": "4918.00",
+                    "lot/serial": "R031500002",
+                    "lot bin": "RECEIVE",
+                    "lot reference": ""
+                },
+                "17": {
+                    "tran type": "Sale",
+                    "warehouse": "BU",
+                    "tran date": "03/15/17",
+                    "tran reference": "SO No.    4225100",
+                    "quantity": "-10.00",
+                    "balance": "1159.00",
+                    "unit cost": "22.25000",
+                    "total cost": "-222.50",
+                    "lot/serial": "Q022600003",
+                    "lot bin": "+",
+                    "lot reference": ""
+                },
+                "18": {
+                    "tran type": "Receipt",
+                    "warehouse": "BU",
+                    "tran date": "02/09/17",
+                    "tran reference": "PO No.     7111",
+                    "quantity": "10.00",
+                    "balance": "1169.00",
+                    "unit cost": "22.25000",
+                    "total cost": "222.50",
+                    "lot/serial": "R020900004",
+                    "lot bin": "RECEIVE",
+                    "lot reference": ""
+                }
+            }
+        }
+    }
+}

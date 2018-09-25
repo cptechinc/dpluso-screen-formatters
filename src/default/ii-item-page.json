@@ -1,0 +1,1277 @@
+{
+    "cols": 4,
+    "header": {
+        "rows": 1,
+        "columns": {
+            "Item ID": {
+				"line": 1,
+				"column": 1,
+				"col-length": 1,
+				"label": "Item ID",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Item Type": {
+				"line": 2,
+				"column": 1,
+				"col-length": 1,
+				"label": "Type",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Item Description 1": {
+				"line": 3,
+				"column": 1,
+				"col-length": 1,
+				"label": "Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Item Description 2": {
+				"line": 4,
+				"column": 1,
+				"col-length": 1,
+				"label": "Desc 2",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Taxable Code": {
+				"line": 1,
+				"column": 9,
+				"col-length": 1,
+				"label": "Taxable",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Item Group Code": {
+				"line": 1,
+				"column": 2,
+				"col-length": 1,
+				"label": "Item Grp",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Item Group Description": {
+				"line": 2,
+				"column": 2,
+				"col-length": 1,
+				"label": "ItemGrpDesc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "UPC Code": {
+				"line": 3,
+				"column": 2,
+				"col-length": 1,
+				"label": "UPC Code",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Price Group Code": {
+				"line": 1,
+				"column": 4,
+				"col-length": 1,
+				"label": "Price Grp",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Price Group Description": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "PriceGrpDesc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Supercede Item": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "SuperItem",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Supercede Description": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "SuperDesc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Weight": {
+				"line": 1,
+				"column": 11,
+				"col-length": 1,
+				"label": "Weight",
+				"before-decimal": 6,
+				"after-decimal": 2,
+				"date-format": false
+			},
+            "Liters": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Liters",
+				"before-decimal": 7,
+				"after-decimal": 4,
+				"date-format": false
+			},
+            "Quantity per Case": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Qnt/Case",
+				"before-decimal": 6,
+				"after-decimal": 0,
+				"date-format": false
+			},
+            "Short Item ID": {
+				"line": 1,
+				"column": 3,
+				"col-length": 1,
+				"label": "ShortItemID",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Special Item Code/Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Spec Code/Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Kit/BOM Indicator": {
+				"line": 1,
+				"column": 8,
+				"col-length": 1,
+				"label": "Kit/BOM",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Revision": {
+				"line": 1,
+				"column": 6,
+				"col-length": 1,
+				"label": "Revision",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Last Activity Date": {
+				"line": 5,
+				"column": 1,
+				"col-length": 1,
+				"label": "LastActDate",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Activity Description": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "ActDesc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Assortment Code": {
+				"line": 1,
+				"column": 5,
+				"col-length": 1,
+				"label": "Asst Code",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Assortment Quantity": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "AssrtQnt",
+				"before-decimal": 3,
+				"after-decimal": 3,
+				"date-format": false
+			},
+            "Primary Vendor": {
+				"line": 1,
+				"column": 7,
+				"col-length": 1,
+				"label": "Prim Vend",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Primary Vendor Name": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Prim Vend Name",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Primary Vendor Item ID": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "PrimVndrItemID",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Primary Vendor Unit Cost": {
+				"line": 1,
+				"column": 12,
+				"col-length": 1,
+				"label": "Unit Cost",
+				"before-decimal": 7,
+				"after-decimal": 3,
+				"date-format": false
+			},
+            "Purchase Unit of Measure": {
+				"line": 1,
+				"column": 13,
+				"col-length": 1,
+				"label": "Pur UOM",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Usage - Month-to-Date": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Use-Mnth",
+				"before-decimal": 8,
+				"after-decimal": 3,
+				"date-format": false
+			},
+            "Usage - Year-to-Date": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Use-Yr",
+				"before-decimal": 8,
+				"after-decimal": 3,
+				"date-format": false
+			},
+            "Usage - Previous Year": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Use-PrevYr",
+				"before-decimal": 8,
+				"after-decimal": 3,
+				"date-format": false
+			},
+            "Catalog ID - 1": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "CatID-1",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Catalog Base Price - 1": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "CatBasePrice-1",
+				"before-decimal": 6,
+				"after-decimal": 2,
+				"date-format": false
+			},
+            "Catalog ID - 2": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "CatID-2",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Catalog Base Price - 2": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "CatBasePrice-2",
+				"before-decimal": 6,
+				"after-decimal": 2,
+				"date-format": false
+			},
+            "Catalog ID - 3": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "CatID-3",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Catalog Base Price - 3": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "CatBasePrice-3",
+				"before-decimal": 6,
+				"after-decimal": 2,
+				"date-format": false
+			},
+            "Catalog ID - 4": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "CatID-4",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Catalog Base Price - 4": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "CatBasePrice-4",
+				"before-decimal": 6,
+				"after-decimal": 2,
+				"date-format": false
+			},
+            "Catalog ID - 5": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "CatID-5",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Catalog Base Price - 5": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "CatBasePrice-5",
+				"before-decimal": 6,
+				"after-decimal": 2,
+				"date-format": false
+			},
+            "Catalog ID - 6": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "CatID-6",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Catalog Base Price - 6": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "CatBasePrice-6",
+				"before-decimal": 6,
+				"after-decimal": 2,
+				"date-format": false
+			},
+            "Stock Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "StckCode",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Stock Code Description": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "StckCodeDesc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Merged Item Flag": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Merged Flag",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "Create Date": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Created",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": "m/d/Y"
+			},
+            "IN-AAA Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "AAA",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-AAA Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "AAA Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-APCODE Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Apcode",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-APCODE Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Apcode Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-Amazon Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Amazon",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-Amazon Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "AmazonDesc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-BODYMAT Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Bodymat",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-BODYMAT Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Bodymat Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-CALLPRIC Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Callpric",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-CALLPRIC Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Callpric Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-CAT-1 Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Cat-1",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-CAT-1 Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Cat-1 Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-CAT-2 Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Cat-2",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-CAT-2 Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Cat-2 Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-CAT-3 Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Cat-3",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-CAT-3 Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Cat-3 Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-CAT-4 Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Cat-4",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-CAT-4 Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Cat-4 Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-CAT-5 Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Cat-5",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-CAT-5 Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Cat-5 Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-CATEGORY Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Category",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-CATEGORY Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Category Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-COLOR Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Color",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-COLOR Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Color Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-DIAMETER Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Diameter",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-DIAMETER Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Diameter Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-FINISH Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Finish",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-FINISH Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Finish Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-FLOWFORM Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Flowform",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-FLOWFORM Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Flowform Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-Family Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Family",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-Family Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Family Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-GRADE Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Grade",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-GRADE Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Grade Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-IMAGESPC Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Imagespc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-IMAGESPC Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Imagespc Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-IMAGNAME Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Imagname",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-IMAGNAME Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Imagname Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-LEADFREE Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Leadfree",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-LEADFREE Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Leadfree Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-LENGTH Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Length",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-LENGTH Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Length Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-MATERIAL Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Material",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-MATERIAL Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Material Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-MERGED Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Merged",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-MERGED Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Merged Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-MINTEMP Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Mintemp",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-MINTEMP Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Mintemp Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-Mast Grp Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "MastGrpCode",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-Mast Grp Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "MastGrpCodeDesc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-PHASE Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Phase",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-PHASE Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Phase Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-PROP65 Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Prop65",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-PROP65 Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Prop65 Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-QUALITY Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Quality",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-QUALITY Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Quality Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-QUANTITY Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Quantity",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-QUANTITY Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Quantity Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-SHELF Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Shelf",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-SHELF Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Shelf Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-SIZE Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Size",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-SIZE Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Size Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-SPEC Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Spec Sheet Flag",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-SPEC Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Spec Sheet Name",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-SchFam Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "SchFam",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-SchFam Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "SchFam Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-Subcatag Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Subcatag",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-Subcatag Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "SubcatagDesc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-TABSBFAM Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Tabsfame",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-TABSBFAM Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Tabsfame Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-TECHSPEC Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Techspec",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-TECHSPEC Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Techspec Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-TEST-1 Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Test-1",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-TEST-1 Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Test-1 Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-TEST-2 Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Test-2",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-TEST-2 Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Test-2 Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-THERMOST Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Thermost",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-THERMOST Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Thermost Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-THICK Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Thick",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-THICK Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Thick Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-THREAD Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Thread",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-THREAD Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Thread Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-TIMAGNAM Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Timagnam",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-TIMAGNAM Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Timagnam Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-VIDINFFL Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Vidinffl",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-VIDINFFL Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Vidinffl Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-VOLTS Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Volts",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-VOLTS Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Volts Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-WATTS Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Watts",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-WATTS Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Watts Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-WEBAVAIL Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Web Avail",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-WEBAVAIL Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Web Avail Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-WIDTH Code": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Width",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			},
+            "IN-WIDTH Desc": {
+				"line": 0,
+				"column": 0,
+				"col-length": 1,
+				"label": "Width Desc",
+				"before-decimal": false,
+				"after-decimal": false,
+				"date-format": false
+			}
+        }
+    }
+}

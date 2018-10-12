@@ -1,4 +1,6 @@
 <?php
+	use Dplus\ProcessWire\DplusWire as DplusWire;
+	
 	/**
 	 * Formatter for II Purchase History Screen
 	 * Formattable
@@ -21,13 +23,13 @@
         public function generate_screen() {
 			$url = new \Purl\Url(DplusWire::wire('config')->pages->ajaxload."ii/ii-documents/order/");
 			$itemID = $this->json['itemid'];
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = '';
 			$this->generate_tableblueprint();
 		    
 			foreach ($this->json['data'] as $whseid => $whse) {
 				$content .= $bootstrap->h3('', $whse['Whse Name']);
-				$tb = new Table("class=table table-striped table-bordered table-condensed table-excel|id=$whseid");
+				$tb = new Dplus\Content\Table("class=table table-striped table-bordered table-condensed table-excel|id=$whseid");
 					$tb->tablesection('thead');
 						for ($x = 1; $x < $this->tableblueprint['detail']['maxrows'] + 1; $x++) {
 							$tb->tr();
@@ -142,7 +144,7 @@
         }
 		
 		public function generate_javascript() {
-			$bootstrap = new HTMLWriter();
+			$bootstrap = new Dplus\Content\HTMLWriter();
 			$content = $bootstrap->open('script', '');
 				$content .= "\n";
 				$content .= $bootstrap->indent().'$(function() {';

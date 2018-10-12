@@ -1,4 +1,6 @@
 <?php
+	use Dplus\ProcessWire\DplusWire as DplusWire;
+	
 	/**
 	 * Formatter for the II Item Page
 	 * Formattable
@@ -18,7 +20,7 @@
             PUBLIC FUNCTIONS
        	============================================================ */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = '';
 			$this->generate_tableblueprint();
 			$item = XRefItem::load($this->json['itemid']);
@@ -44,11 +46,11 @@
 		 * @return string HTML Table
 		 */
 		protected function generate_itemformsection() {
-			$bootstrap = new HTMLWriter();
+			$bootstrap = new Dplus\Content\HTMLWriter();
 			$itemID = $this->json['itemid'];
 			$custID = DplusWire::wire('input')->get->text('custID');
 			$shipID = DplusWire::wire('input')->get->text('shipID');
-			$tb = new Table('class=table table-striped table-bordered table-condensed table-excel');
+			$tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel');
 
 			foreach ($this->tableblueprint['header']['sections']['1'] as $column) {
 				$tb->tr();
@@ -60,7 +62,7 @@
 				
 				if ($column['id'] == 'Item ID') {
 					$action = DplusWire::wire('config')->pages->ajax."load/ii/search-results/modal/";
-					$form = new FormMaker("action=$action|method=POST|id=ii-item-lookup|class=allow-enterkey-submit");
+					$form = new Dplus\Content\FormMaker("action=$action|method=POST|id=ii-item-lookup|class=allow-enterkey-submit");
 					$form->input('type=hidden|name=action|value=ii-item-lookup');
 					$form->input("type=hidden|name=custID|class=custID|value=$custID");
 					$form->input("type=hidden|name=shipID|class=shipID|value=$shipID");
@@ -87,12 +89,12 @@
 		 * @return string HTML
 		 */
 		protected function generate_othersections() {
-			$bootstrap = new Contento;
+			$bootstrap = new Dplus\Content\HTMLWriter();
 			$content = '';
 			
 			for ($i = 2; $i < 5; $i++) {
 				$content .= $bootstrap->open('div', 'class=col-sm-4 form-group');
-				$tb = new Table('class=table table-striped table-bordered table-condensed table-excel');
+				$tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel');
 
 				foreach ($this->tableblueprint['header']['sections']["$i"] as $column) {
 					$tb->tr();

@@ -1,4 +1,8 @@
 <?php
+	use Dplus\ProcessWire\DplusWire as DplusWire;
+	use Dplus\Content\HTMLWriter as HTMLWriter;
+	use Dplus\Content\Table as Table;
+	
 	/**
 	 * Formatter for the CI Contacts Screen
 	 * Not Formatterable

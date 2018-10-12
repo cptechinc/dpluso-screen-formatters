@@ -1,4 +1,6 @@
 <?php
+	use Dplus\ProcessWire\DplusWire as DplusWire;
+	
 	/**
 	 * Formatter for VI Payment History Screen
 	 * Formattable
@@ -18,11 +20,11 @@
             PUBLIC FUNCTIONS
        	============================================================= */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = '';
 			$this->generate_tableblueprint();
 			
-            $tb = new Table('class=table table-striped table-bordered table-condensed table-excel|id=payments');
+            $tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel|id=payments');
         	$tb->tablesection('thead');
         		for ($x = 1; $x < $this->tableblueprint['detail']['maxrows'] + 1; $x++) {
         			$tb->tr();
@@ -71,7 +73,7 @@
         }
 		
 		public function generate_javascript() {
-			$bootstrap = new HTMLWriter();
+			$bootstrap = new Dplus\Content\HTMLWriter();
 			$content = $bootstrap->open('script', '');
 			if (!$this->forprint) {
 				$content .= "\n";

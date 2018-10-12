@@ -1,4 +1,6 @@
 <?php 
+    use Dplus\ProcessWire\DplusWire as DplusWire;
+    
     /**
      * Formatter for Item Misc Screen
      * Not Formattable
@@ -22,8 +24,8 @@
             CLASS FUNCTIONS
        	============================================================ */
         protected function generate_misctable() {
-            $bootstrap = new HTMLWriter();
-            $tb = new Table('class=table table-striped table-condensed table-excel');
+            $bootstrap = new Dplus\Content\HTMLWriter();
+            $tb = new Dplus\Content\Table('class=table table-striped table-condensed table-excel');
             foreach ($this->json['data'] as $misc) {
                 foreach (array_keys($this->json['columns']['misc info']) as $column) {
                     $tb->tr();

@@ -1,4 +1,6 @@
 <?php
+	use Dplus\ProcessWire\DplusWire as DplusWire;
+	
 	/**
 	 * Formatter for CI Quotes
 	 * Formattable
@@ -21,12 +23,12 @@
         ============================================================ */
         public function generate_screen() {
 			$url = new \Purl\Url(DplusWire::wire('config')->pages->ajaxload."ci/ci-documents/quote/");
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
 			$this->generate_tableblueprint();
 			$content = '';
 
             foreach ($this->json['data'] as $whseid => $whse) {
-                $tb = new Table("class=table table-striped table-bordered table-condensed table-excel|id=$whseid");
+                $tb = new Dplus\Content\Table("class=table table-striped table-bordered table-condensed table-excel|id=$whseid");
             	$tb->tablesection('thead');
             		for ($x = 1; $x < $this->tableblueprint['detail']['maxrows'] + 1; $x++) {
             			$tb->tr();

@@ -1,4 +1,6 @@
 <?php 
+    use Dplus\ProcessWire\DplusWire as DplusWire;
+    
     /**
      * II Item Activity Screen Formatter
      * Not Formattable
@@ -15,13 +17,13 @@
             PUBLIC FUNCTIONS
        	============================================================= */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = '';
             
             foreach($this->json['data'] as $warehouse) {
 				$content .= $bootstrap->h3('', $warehouse['Whse Name']);
                 
-				$tb = new Table('class=table table-striped table-bordered table-condensed table-excel|id=activity');
+				$tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel|id=activity');
 				$tb->tablesection('thead');
 					$tb->tr();
 					foreach($this->json['columns'] as $column)  {
@@ -44,7 +46,7 @@
         }
         
         public function generate_javascript() {
-			$bootstrap = new HTMLWriter();
+			$bootstrap = new Dplus\Content\HTMLWriter();
 			$content = $bootstrap->open('script', '');
             
             if (!$this->forprint) {

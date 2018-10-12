@@ -16,9 +16,9 @@
           PUBLIC FUNCTIONS
        	============================================================ */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = '';
-			$tb = new Table('class=table item-pricing table-striped table-condensed table-bordered print-hidden');
+			$tb = new Dplus\Content\Table('class=table item-pricing table-striped table-condensed table-bordered print-hidden');
 			$tb->tablesection('thead');
 				$tb->tr();
 				foreach($this->json['columns'] as $column => $name)  {

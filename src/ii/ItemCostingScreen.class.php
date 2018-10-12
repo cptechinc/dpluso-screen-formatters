@@ -1,4 +1,6 @@
-<?php 
+<?php
+    use Dplus\ProcessWire\DplusWire as DplusWire;
+    
     /**
      * II Item Costing Screen
      * Not Formattable
@@ -15,7 +17,7 @@
             PUBLIC FUNCTIONS
        	============================================================= */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = $this->generate_itemtable();
             
             if ($this->forprint) {
@@ -45,7 +47,7 @@
          * @return string HTML Item Description Table
          */
 		public function generate_itemtable() {
-			$tb = new Table('class=table table-striped table-condensed table-excel');
+			$tb = new Dplus\Content\Table('class=table table-striped table-condensed table-excel');
 			$tb->tr();
 			$tb->td('', '<b>Item ID</b>')->td('', $this->json['itemid'])->td('colspan=2', $this->json['desc1']);
 			
@@ -63,13 +65,13 @@
          * @return string HTML for the Warehouse Section
          */
 		public function generate_whsesection() {
-			$bootstrap = new HTMLWriter();
+			$bootstrap = new Dplus\Content\HTMLWriter();
 			$content = '';
 			if (!isset($this->json['data']['warehouse'])) return $content;
 			
 			foreach ($this->json['data']['warehouse'] as $whse) {
 				$content .= '<h3>'.$whse['whse name'].'</h3>'; 
-				$tb = new Table('class=table table-striped table-bordered table-condensed table-excel no-bottom');
+				$tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel no-bottom');
 				$tb->tablesection('thead')->tr();
 					foreach ($this->json['columns']['warehouse'] as $column) {
 						$class = DplusWire::wire('config')->textjustify[$column['headingjustify']];
@@ -95,13 +97,13 @@
          * @return string HTML for the Vendor Section
          */
 		public function generate_vendorsection() {
-			$bootstrap = new HTMLWriter();
+			$bootstrap = new Dplus\Content\HTMLWriter();
 			$content = '';
 			foreach ($this->json['data']['vendor'] as $vendor) {
 				$content .= '<h3>'.$vendor['vend id'].'</h3>';
 				$content .= $bootstrap->open('div', 'class=row');
 					$content .= $bootstrap->open('div', 'class=col-sm-6');
-						$tb = new Table('class=table table-striped table-bordered table-condensed table-excel no-bottom');
+						$tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel no-bottom');
 						$tb->tr()->td('', 'Vendor:')->td('', $vendor['vend name']);
 						$tb->tr()->td('', 'Phone Nbr:')->td('', $vendor['vend phone']);
 						$tb->tr()->td('', 'Purch UoM:')->td('', $vendor['vend uom']);
@@ -113,7 +115,7 @@
 					$content .= $bootstrap->close('div'); // CLOSES col-sm-6
 					
 					$content .= $bootstrap->open('div', 'class=col-sm-6');
-						$tb = new Table('class=table table-striped table-bordered table-condensed table-excel no-bottom');
+						$tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel no-bottom');
 						$tb->tr();
 						$tb->tablesection('thead');
 							foreach ($this->json['columns']['vendor'] as $column) {
@@ -142,7 +144,7 @@
          * @return string HTML Table for the last purchased
          */
 		function generate_lastpurchasedtable() {
-			$tb = new Table('class=table table-striped table-bordered table-condensed table-excel no-bottom');
+			$tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel no-bottom');
 			$tb->tr();
 			$tb->tablesection('thead');
 				foreach ($this->json['columns']['last purchase'] as $column) {

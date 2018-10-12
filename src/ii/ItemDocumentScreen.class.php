@@ -1,4 +1,6 @@
 <?php 
+    use Dplus\ProcessWire\DplusWire as DplusWire;
+    
     /**
      * Formatter for II Item Documents Screen
      * Not Formattable
@@ -15,11 +17,11 @@
             PUBLIC FUNCTIONS
         ============================================================ */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $columns = array_keys($this->json['columns']);
             $documents = array_keys($this->json['data']);
 
-            $tb = new Table('class=table table-striped table-condensed table-excel');
+            $tb = new Dplus\Content\Table('class=table table-striped table-condensed table-excel');
             $tb->tablesection('thead');
                 $tb->tr();
                 foreach ($columns as $column) {

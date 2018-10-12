@@ -1,4 +1,6 @@
 <?php 
+    use Dplus\ProcessWire\DplusWire as DplusWire;
+    
     /**
      * Formatter for II Item Stock Screen
      * Not Formattable
@@ -20,12 +22,12 @@
             PUBLIC FUNCTIONS
        	============================================================= */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = '';
             $itemlink = new \Purl\Url(DplusWire::wire('config')->pages->products."redir/");
             
             $columns = array_keys($this->json['columns']);
-			$tb = new Table('class=table table-striped table-condensed table-bordered table-excel');
+			$tb = new Dplus\Content\Table('class=table table-striped table-condensed table-bordered table-excel');
 			$tb->tablesection('thead');
 				$tb->tr();
 				foreach ($this->json['columns'] as $column) {

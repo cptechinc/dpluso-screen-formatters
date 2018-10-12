@@ -1,4 +1,6 @@
 <?php 
+    use Dplus\ProcessWire\DplusWire as DplusWire;
+    
     /**
      * Formatter for II Item Warehouse Stock Screen
      * Not Formattable
@@ -16,14 +18,14 @@
             PUBLIC FUNCTIONS
        	============================================================ */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = '';
             
             foreach($this->json['data'] as $whse) {
                 $content .= $bootstrap->h3('', $whse['Whse Name']);
                 
                 // Warehouse Totals
-                $tb = new Table('class=table table-striped table-bordered table-condensed table-excel');
+                $tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel');
 				$tb->tablesection('thead');
 					$tb->tr();
 					foreach($this->json['columns']['warehouse'] as $column) {
@@ -42,7 +44,7 @@
                 
                 // Stock By Lot 
                 if (array_key_exists('lots', $whse)) {
-                    $tb = new Table('class=table table-striped table-bordered table-condensed table-excel');
+                    $tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel');
 					$tb->tr();
 					foreach ($this->json['columns']['lots'] as $column) {
 						$class = DplusWire::wire('config')->textjustify[$column['headingjustify']];

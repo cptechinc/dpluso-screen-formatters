@@ -1,4 +1,6 @@
 <?php
+	use Dplus\ProcessWire\DplusWire as DplusWire;
+	
 	/**
 	 * Formatter for CI Customer Shipto Screen
 	 * Formattable
@@ -20,8 +22,8 @@
 		}
 
 		public function generate_shiptotable(Customer $customer) {
-			$bootstrap = new HTMLWriter();
-			$tb = new Table("class=table table-striped table-bordered table-condensed table-excel");
+			$bootstrap = new Dplus\Content\HTMLWriter();
+			$tb = new Dplus\Content\Table("class=table table-striped table-bordered table-condensed table-excel");
 			foreach (array_keys($this->json['columns']['top']) as $column) {
 				if ($this->json['columns']['top'][$column]['heading'] == '' && $this->json['data']['top'][$column] == '') {
 
@@ -49,7 +51,7 @@
 		}
 
 		public function generate_tableright() {
-			$tb = new Table('class=table table-striped table-bordered table-condensed table-excel');
+			$tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel');
 
 			foreach (array('activity', 'saleshistory') as $section) {
 				$tb->tablesection('thead');

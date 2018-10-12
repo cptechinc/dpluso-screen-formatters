@@ -1,4 +1,6 @@
 <?php 
+    use Dplus\ProcessWire\DplusWire as DplusWire;
+    
     /**
      * Formatter for II Item Notes Screen
      * Not Formattable
@@ -15,7 +17,7 @@
             PUBLIC FUNCTIONS
        	============================================================ */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = $bootstrap->h3('', 'Inspection Notes');
             $content .= $this->generate_inspectiontable();
             $content .= $bootstrap->h3('', 'Internal Notes');
@@ -33,7 +35,7 @@
          * @return string HTML Table for the Inspection Notes
          */
         protected function generate_inspectiontable() {
-            $tb = new Table('class=table table-striped table-condensed table-excel');
+            $tb = new Dplus\Content\Table('class=table table-striped table-condensed table-excel');
             $tb->tablesection('thead');
                 $tb->tr();
                 foreach ($this->json['columns']['inspection notes'] as $column) {
@@ -58,7 +60,7 @@
          * @return string HTML Table for the Internal Notes
          */
         protected function generate_internaltable() {
-            $tb = new Table('class=table table-striped table-condensed table-excel');
+            $tb = new Dplus\Content\Table('class=table table-striped table-condensed table-excel');
             $tb->tablesection('thead');
                 $tb->tr();
                 foreach ($this->json['columns']['internal notes'] as $column) {
@@ -83,7 +85,7 @@
          * @return string HTML Table for the Order Notes
          */
         protected function generate_orderstable() {
-            $tb = new Table('class=table table-striped table-condensed table-excel');
+            $tb = new Dplus\Content\Table('class=table table-striped table-condensed table-excel');
             $tb->tablesection('thead');
                 $tb->tr();
                 foreach ($this->json['columns']['order notes'] as $column) {

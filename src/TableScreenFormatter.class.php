@@ -1,4 +1,6 @@
 <?php
+	use Dplus\ProcessWire\DplusWire as DplusWire;
+	
 	/**
 	 * Abstract file to build Formatter classes from and to provide properties and methods
 	 */

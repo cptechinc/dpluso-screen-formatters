@@ -1,4 +1,6 @@
 <?php 
+    use Dplus\ProcessWire\DplusWire as DplusWire;
+    
     /**
      * Formatter For II Item Lot Serial
      * Formattable
@@ -17,11 +19,11 @@
             PUBLIC FUNCTIONS
        	============================================================ */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = '';
 			$count = 0; 
             //if ($column['sortavailable'] == 'n') { $array[] = $count; }
-            $tb = new Table("class=table table-striped table-bordered table-condensed table-excel|id=table");
+            $tb = new Dplus\Content\Table("class=table table-striped table-bordered table-condensed table-excel|id=table");
 			$tb->tablesection('thead');
                 for ($x = 1; $x < $this->tableblueprint['detail']['maxrows'] + 1; $x++) {
                     $tb->tr();

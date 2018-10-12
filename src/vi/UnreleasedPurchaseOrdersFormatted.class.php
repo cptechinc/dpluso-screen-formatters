@@ -1,4 +1,6 @@
 <?php
+	use Dplus\ProcessWire\DplusWire as DplusWire;
+	
 	/**
 	 * Formatter for VI Unreleased Purchase Orders Screen
 	 * Formattable
@@ -18,12 +20,12 @@
             PUBLIC FUNCTIONS
        	============================================================= */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = '';
 			$this->generate_tableblueprint();
 			$content = $bootstrap->div('class=row', $bootstrap->div('class=col-sm-4 form-group', $bootstrap->label('', 'Show Notes') . $this->generate_shownotesselect()));
 			
-            $tb = new Table('class=table table-striped table-bordered table-condensed table-excel|id=unreleased');
+            $tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel|id=unreleased');
         	$tb->tablesection('thead');
         		for ($x = 1; $x < $this->tableblueprint['header']['maxrows'] + 1; $x++) {
         			$tb->tr();
@@ -179,7 +181,7 @@
         }
 		
 		public function generate_javascript() {
-			$bootstrap = new HTMLWriter();
+			$bootstrap = new Dplus\Content\HTMLWriter();
 			$content = $bootstrap->open('script', '');
 				$content .= "\n";
                     if ($this->tableblueprint['detail']['maxrows'] < 2) {

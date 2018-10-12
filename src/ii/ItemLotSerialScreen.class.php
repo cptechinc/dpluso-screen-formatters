@@ -1,4 +1,6 @@
 <?php
+    use Dplus\ProcessWire\DplusWire as DplusWire;
+    
     /**
      * Formatter for II Lot Serial Screen
      * Not Formattable
@@ -15,7 +17,7 @@
           PUBLIC FUNCTIONS
        	============================================================ */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = '';
             $columns = array_keys($this->json['columns']);
 			$count = 0; 
@@ -25,7 +27,7 @@
 				$count++;
 			}
 			
-			$tb = new Table("class=table table-striped table-bordered table-condensed table-excel|id=table");
+			$tb = new Dplus\Content\Table("class=table table-striped table-bordered table-condensed table-excel|id=table");
 			$tb->tablesection('thead');
 				$tb->tr();
 				foreach($this->json['columns'] as $column) {

@@ -1,4 +1,6 @@
 <?php 
+    use Dplus\ProcessWire\DplusWire as DplusWire;
+    
     /**
      * Formatter for II Item Usage Screen
      * Not Formattable
@@ -15,7 +17,7 @@
             PUBLIC FUNCTIONS
        	============================================================ */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = $this->generate_salesusagetable();
             
             foreach (array_keys($this->json['data']['24month']) as $warehouse) {
@@ -28,7 +30,7 @@
         }
         
         public function generate_javascript() {
-			$bootstrap = new HTMLWriter();
+			$bootstrap = new Dplus\Content\HTMLWriter();
             $script = new JavaScripter(false);
 			$content = $bootstrap->open('script', '');
 				$content .= "\n";
@@ -145,11 +147,11 @@
          * @return string HTML Table with Item Information
          */
         public function generate_iteminfotable() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             if ($this->json['error']) {
                 return $bootstrap->alertpanel('warning', $this->json['errormsg']);
             } else {
-                $tb = new Table('class=table table-striped table-bordered table-condensed table-excel');
+                $tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel');
                 $tb->tr()->td('', $bootstrap->b('', 'Item ID:'))->td('', $this->json['itemid'])->td('colspan=2', $this->json['desc1']);
                 $tb->tr()->td('', $bootstrap->b('', 'Sales UoM:'))->td('', $this->json['sale uom'])->td('colspan=2', $this->json['desc2']);
                 $tb->tr()->td('', $bootstrap->b('', 'Last Sale Date:'))->td('colspan=3', $this->json['last sale date']);
@@ -166,7 +168,7 @@
          * @return string HTML Table with Item Information
          */
         protected function generate_salesusagetable() {
-            $tb = new Table('class=table table-striped table-bordered table-condensed table-excel no-bottom');
+            $tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel no-bottom');
             $tb->tablesection('thead');
             $tb->tr();
             foreach  ($this->json['columns']['sales usage'] as $column) {
@@ -193,7 +195,7 @@
          * @return string       HTML for the Warehouse Data
          */
         protected function generate_warehousediv($whse) {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $heading = $bootstrap->h3('', $this->json['data']['24month'][$whse]['whse name']);
             if ($this->forprint) {
                 $tablediv = $bootstrap->div("role=tabpanel|class=tab-pane active|id=$whse-table", $this->generate_warehousetable($whse));
@@ -217,8 +219,8 @@
          * @return string       HTML table with Warehouse Item Data
          */
         protected function generate_warehousetable($whse) {
-            $bootstrap = new HTMLWriter();
-            $tb = new Table("class=table table-striped table-bordered table-condensed table-excel no-bottom|id=$whse");
+            $bootstrap = new Dplus\Content\HTMLWriter();
+            $tb = new Dplus\Content\Table("class=table table-striped table-bordered table-condensed table-excel no-bottom|id=$whse");
             $tb->tablesection('thead');
             $tb->tr();
             foreach  ($this->json['columns']['24month'] as $column) {

@@ -1,4 +1,6 @@
 <?php 
+    use Dplus\ProcessWire\DplusWire as DplusWire;
+    
     /**
      * Formatter for II Item Substitute Screen
      * Not Formattable
@@ -15,7 +17,7 @@
             PUBLIC FUNCTIONS
        	============================================================ */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = '';
             
             $content .= $bootstrap->open('div', 'class=row');
@@ -40,7 +42,7 @@
          * @return string HTML table for Item Summary
          */
         protected function generate_itemtable() {
-            $tb = new Table('class=table table-striped table-bordered table-condensed table-excel');
+            $tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel');
         	$tb->tr();
         	$tb->td('', 'Item ID:');
         	$content = $this->json['itemid'] . "<br>";
@@ -61,7 +63,7 @@
          * @return string HTML table for Item UoM and Pricing
          */
         protected function generate_saletable() {
-            $tb = new Table('class=table table-striped table-bordered table-condensed table-excel');
+            $tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel');
         	$tb->tr();
         	$tb->td('', 'Sale UoM');
         	$tb->td('', $this->json['sale uom']);
@@ -76,7 +78,7 @@
          * @return string HTML table for Item Usubstitutes
          */
         protected function generate_substitutetable() {
-            $tb = new Table('class=table table-striped table-bordered table-condensed table-excel');
+            $tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel');
         	$tb->tablesection('thead');
         		$tb->tr();
         		foreach ($this->json['columns'] as $column) {

@@ -1,4 +1,6 @@
-<?php 
+<?php
+    use Dplus\ProcessWire\DplusWire as DplusWire;
+    
     /**
      * Formatter for Item Pricing Screen
      * Not Formattable
@@ -15,7 +17,7 @@
             PUBLIC FUNCTIONS
        	============================================================ */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = '';
             $content .= $this->generate_itemtable();
             
@@ -46,7 +48,7 @@
          * @return string HTML Derived Pricing Table
          */
         protected function generate_derivedpricingtable() {
-            $tb = new Table('class=table table-striped table-condensed table-excel');
+            $tb = new Dplus\Content\Table('class=table table-striped table-condensed table-excel');
         	$tb->tablesection('thead');
         		$tb->tr();
         		foreach($this->json['columns']['pricing derived from'] as $column) {
@@ -71,7 +73,7 @@
          * @return string HTML customer pricing table
          */
         protected function generate_customerpricingtable() {
-            $tb = new Table('class=table table-striped table-condensed table-excel');
+            $tb = new Dplus\Content\Table('class=table table-striped table-condensed table-excel');
         	$tb->tablesection('thead');
         		$tb->tr();
         		foreach($this->json['columns']['customer pricing'] as $column) {
@@ -96,8 +98,8 @@
          * @return string HTML Table for Standard Pricing
          */
         protected function generate_standardpricingtable() {
-            $bootstrap = new HTMLWriter();
-            $tb = new Table('class=table table-striped table-condensed table-excel');
+            $bootstrap = new Dplus\Content\HTMLWriter();
+            $tb = new Dplus\Content\Table('class=table table-striped table-condensed table-excel');
         	$tb->tablesection('thead');
         		$tb->tr();
         		foreach($this->json['columns']['standard pricing'] as $column) {
@@ -125,8 +127,8 @@
          * @return string HTML Table for Item Summary
          */
         protected function generate_itemtable() {
-            $bootstrap = new HTMLWriter();
-            $tb = new Table('class=table table-striped table-condensed table-excel');
+            $bootstrap = new Dplus\Content\HTMLWriter();
+            $tb = new Dplus\Content\Table('class=table table-striped table-condensed table-excel');
         	$tb->tr();
         		$tb->td('', '<b>Item ID</b>');
         		$tb->td('', $this->json['itemid']);

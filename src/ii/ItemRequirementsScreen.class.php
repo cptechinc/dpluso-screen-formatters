@@ -1,4 +1,6 @@
 <?php 
+    use Dplus\ProcessWire\DplusWire as DplusWire;
+    
     /**
      * Formatter Item Requirements Screens
      * Not Formattable
@@ -23,10 +25,10 @@
             PUBLIC FUNCTIONS
        	============================================================ */
         public function generate_screen() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
             $content = $bootstrap->div('class=row', $bootstrap->div('class=col-sm-5', $this->generate_warehouseform()));
             
-            $tb = new Table('class=table table-striped table-bordered table-condensed table-excel');
+            $tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel');
 			$tb->tablesection('thead');
 				$tb->tr();
 				foreach($this->json['columns'] as $column) {
@@ -59,7 +61,7 @@
          * @return string HTML form for the warehouse
          */
         protected function generate_warehouseform() {
-            $bootstrap = new HTMLWriter();
+            $bootstrap = new Dplus\Content\HTMLWriter();
 	        $whsejson = json_decode(file_get_contents(DplusWire::wire('config')->companyfiles."json/whsetbl.json"), true);
             $warehouses = array_keys($whsejson['data']);
             $reloadpage = DplusWire::wire('config')->ajax ? 'true' : 'false';
@@ -72,7 +74,7 @@
             $content = $bootstrap->h3('',  ucfirst($this->screentypes[$this->json['reqavl']]));
             $select = $bootstrap->select("class=form-control input-sm item-requirements-whse|onchange=requirements(this.value, '$screen', $reloadpage, '$itemID')", $warehouses, $this->json['whse']);
             $screentypeselect = $bootstrap->select("class=form-control input-sm item-requirements-screentype|onchange=requirements('$warehouseID', this.value, $reloadpage, '$itemID')", $this->screentypes, $this->json['reqavl']);
-            $tb = new Table('class=table table-striped table-bordered table-condensed table-excel');
+            $tb = new Dplus\Content\Table('class=table table-striped table-bordered table-condensed table-excel');
     			$tb->tr()->td('', 'Item ID:')->td('', $this->json['itemid']);
     			$tb->tr()->td('', 'Whse:')->td('', $select);
     			$tb->tr()->td('', 'View')->td('', $screentypeselect);

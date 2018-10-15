@@ -1,7 +1,8 @@
 <?php
 	namespace Dplus\Dpluso\ScreenFormatters;
 	
-	use Dplus\ProcessWire\DplusWire as DplusWire;
+	use Dplus\ProcessWire\DplusWire;
+	use Dplus\Content\HTMLWriter;
 	
 	/**
 	 * Abstract file to build Screen classes from and to provide properties and methods
@@ -236,7 +237,7 @@
 		 * @return string                    HTML for screen
 		 */
 		public function process_andgeneratescreen($generatejavascript = false) {
-			$bootstrap = new Dplus\Content\HTMLWriter();
+			$bootstrap = new HTMLWriter();
 			if (file_exists($this->fullfilepath)) {
 				// JSON file will be false if an error occurred during file_get_contents or json_decode
 				$this->process_json();
@@ -264,7 +265,7 @@
 		 * @return string  HTML select
 		 */
 		public function generate_shownotesselect() {
-			$bootstrap = new Dplus\Content\HTMLWriter();
+			$bootstrap = new HTMLWriter();
 			$array = array();
 			foreach (DplusWire::wire('config')->yesnoarray as $key => $value) {
 				$array[$value] = $key;
@@ -282,7 +283,7 @@
 		 * @param string $column the key in which we use to look up the value
 		 */
 		public static function generate_formattedcelldata($type, $parent, $column) {
-			$bootstrap = new Dplus\Content\HTMLWriter();
+			$bootstrap = new HTMLWriter();
 			$celldata = '';
 			$qtyregex = "/(quantity)/i";
 
@@ -326,7 +327,7 @@
 		 * @return string         Value or HTML content
 		 */
 		public static function generate_celldata($parent, $column) {
-			$bootstrap = new Dplus\Content\HTMLWriter();
+			$bootstrap = new HTMLWriter();
 			if (in_array($column, self::$trackingcolumns)) {
 				$href = self::generate_trackingurl($parent['Service Type'], $parent[$column]);
 				return $href ? $bootstrap->a("href=$href|target=_blank", $parent[$column]) : $parent[$column];

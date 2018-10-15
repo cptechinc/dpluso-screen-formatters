@@ -36,14 +36,14 @@ class ComposerStaticInit60d0ce33873e823796c7fb8b01b9c750
     );
 
     public static $classMap = array (
-        'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_ContactsScreen' => __DIR__ . '/../..' . '/src/ci/ContactsScreen.class.php',
-        'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_CustomerScreen' => __DIR__ . '/../..' . '/src/ci/CustomerScreen.class.php',
-        'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_CustomerShiptoScreen' => __DIR__ . '/../..' . '/src/ci/CustomerShiptoScreen.class.php',
-        'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_OpenInvoicesFormatter' => __DIR__ . '/../..' . '/src/ci/OpenInvoicesFormatter.class.php',
-        'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_PaymentHistoryFormatter' => __DIR__ . '/../..' . '/src/ci/PaymentHistoryFormatter.class.php',
-        'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_QuotesFormatter' => __DIR__ . '/../..' . '/src/ci/QuotesFormatter.class.php',
-        'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_SalesHistoryFormatter' => __DIR__ . '/../..' . '/src/ci/SalesHistoryFormatter.class.php',
-        'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_SalesOrdersFormatter' => __DIR__ . '/../..' . '/src/ci/SalesOrdersFormatter.class.php',
+        'Dplus\\Dpluso\\ScreenFormatters\\CI\\ContactsScreen' => __DIR__ . '/../..' . '/src/ci/ContactsScreen.class.php',
+        'Dplus\\Dpluso\\ScreenFormatters\\CI\\CustomerScreen' => __DIR__ . '/../..' . '/src/ci/CustomerScreen.class.php',
+        'Dplus\\Dpluso\\ScreenFormatters\\CI\\CustomerShiptoScreen' => __DIR__ . '/../..' . '/src/ci/CustomerShiptoScreen.class.php',
+        'Dplus\\Dpluso\\ScreenFormatters\\CI\\OpenInvoicesFormatter' => __DIR__ . '/../..' . '/src/ci/OpenInvoicesFormatter.class.php',
+        'Dplus\\Dpluso\\ScreenFormatters\\CI\\PaymentHistoryFormatter' => __DIR__ . '/../..' . '/src/ci/PaymentHistoryFormatter.class.php',
+        'Dplus\\Dpluso\\ScreenFormatters\\CI\\QuotesFormatter' => __DIR__ . '/../..' . '/src/ci/QuotesFormatter.class.php',
+        'Dplus\\Dpluso\\ScreenFormatters\\CI\\SalesHistoryFormatter' => __DIR__ . '/../..' . '/src/ci/SalesHistoryFormatter.class.php',
+        'Dplus\\Dpluso\\ScreenFormatters\\CI\\SalesOrdersFormatter' => __DIR__ . '/../..' . '/src/ci/SalesOrdersFormatter.class.php',
         'Dplus\\Dpluso\\ScreenFormatters\\II\\II_ItemActivityScreen' => __DIR__ . '/../..' . '/src/ii/ItemActivityScreen.class.php',
         'Dplus\\Dpluso\\ScreenFormatters\\II\\II_ItemCostingScreen' => __DIR__ . '/../..' . '/src/ii/ItemCostingScreen.class.php',
         'Dplus\\Dpluso\\ScreenFormatters\\II\\II_ItemDocumentScreen' => __DIR__ . '/../..' . '/src/ii/ItemDocumentScreen.class.php',

@@ -24,11 +24,11 @@
             'ii-item-page' => 'II_ItemPageFormatter',
             
             // CI
-            'ci-sales-orders' => 'CI_SalesOrdersFormatter',
-            'ci-sales-history' => 'CI_SalesHistoryFormatter',
-            'ci-open-invoices' => 'CI_OpenInvoicesFormatter',
-            'ci-payment-history' => 'CI_PaymentHistoryFormatter',
-            'ci-quotes' => 'CI_QuotesFormatter',
+            'ci-sales-orders' => 'SalesOrdersFormatter',
+            'ci-sales-history' => 'SalesHistoryFormatter',
+            'ci-open-invoices' => 'OpenInvoicesFormatter',
+            'ci-payment-history' => 'PaymentHistoryFormatter',
+            'ci-quotes' => 'QuotesFormatter',
             
             // VI 
             'vi-purchase-orders' => 'VI_PurchaseOrdersFormatter',
@@ -53,9 +53,9 @@
             'ii-misc' => 'II_ItemMiscScreen',
 			'ii-costing' => 'II_ItemCostingScreen',
             
-            'ci-customer-page' => 'CI_CustomerScreen',
-            'ci-customer-shipto-page' => 'CI_CustomerShiptoScreen',
-            'ci-contacts' => 'CI_ContactsScreen',
+            'ci-customer-page' => 'CustomerScreen',
+            'ci-customer-shipto-page' => 'CustomerShiptoScreen',
+            'ci-contacts' => 'ContactsScreen',
 			
 			'item-pricing' => 'Item_ItemPricing',
 			'item-stock' => 'Item_ItemStock',

@@ -6,14 +6,14 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_ContactsScreen' => $baseDir . '/src/ci/ContactsScreen.class.php',
-    'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_CustomerScreen' => $baseDir . '/src/ci/CustomerScreen.class.php',
-    'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_CustomerShiptoScreen' => $baseDir . '/src/ci/CustomerShiptoScreen.class.php',
-    'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_OpenInvoicesFormatter' => $baseDir . '/src/ci/OpenInvoicesFormatter.class.php',
-    'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_PaymentHistoryFormatter' => $baseDir . '/src/ci/PaymentHistoryFormatter.class.php',
-    'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_QuotesFormatter' => $baseDir . '/src/ci/QuotesFormatter.class.php',
-    'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_SalesHistoryFormatter' => $baseDir . '/src/ci/SalesHistoryFormatter.class.php',
-    'Dplus\\Dpluso\\ScreenFormatters\\CI\\CI_SalesOrdersFormatter' => $baseDir . '/src/ci/SalesOrdersFormatter.class.php',
+    'Dplus\\Dpluso\\ScreenFormatters\\CI\\ContactsScreen' => $baseDir . '/src/ci/ContactsScreen.class.php',
+    'Dplus\\Dpluso\\ScreenFormatters\\CI\\CustomerScreen' => $baseDir . '/src/ci/CustomerScreen.class.php',
+    'Dplus\\Dpluso\\ScreenFormatters\\CI\\CustomerShiptoScreen' => $baseDir . '/src/ci/CustomerShiptoScreen.class.php',
+    'Dplus\\Dpluso\\ScreenFormatters\\CI\\OpenInvoicesFormatter' => $baseDir . '/src/ci/OpenInvoicesFormatter.class.php',
+    'Dplus\\Dpluso\\ScreenFormatters\\CI\\PaymentHistoryFormatter' => $baseDir . '/src/ci/PaymentHistoryFormatter.class.php',
+    'Dplus\\Dpluso\\ScreenFormatters\\CI\\QuotesFormatter' => $baseDir . '/src/ci/QuotesFormatter.class.php',
+    'Dplus\\Dpluso\\ScreenFormatters\\CI\\SalesHistoryFormatter' => $baseDir . '/src/ci/SalesHistoryFormatter.class.php',
+    'Dplus\\Dpluso\\ScreenFormatters\\CI\\SalesOrdersFormatter' => $baseDir . '/src/ci/SalesOrdersFormatter.class.php',
     'Dplus\\Dpluso\\ScreenFormatters\\II\\II_ItemActivityScreen' => $baseDir . '/src/ii/ItemActivityScreen.class.php',
     'Dplus\\Dpluso\\ScreenFormatters\\II\\II_ItemCostingScreen' => $baseDir . '/src/ii/ItemCostingScreen.class.php',
     'Dplus\\Dpluso\\ScreenFormatters\\II\\II_ItemDocumentScreen' => $baseDir . '/src/ii/ItemDocumentScreen.class.php',

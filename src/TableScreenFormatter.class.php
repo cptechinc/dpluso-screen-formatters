@@ -1,7 +1,7 @@
 <?php
 	namespace Dplus\Dpluso\ScreenFormatters;
 	
-	use Dplus\ProcessWire\DplusWire as DplusWire;
+	use Dplus\ProcessWire\DplusWire;
 	
 	/**
 	 * Abstract file to build Formatter classes from and to provide properties and methods

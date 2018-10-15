@@ -6,4 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Dplus\\Dpluso\\ScreenFormatters\\VI\\' => array($baseDir . '/src/vi'),
+    'Dplus\\Dpluso\\ScreenFormatters\\Item\\' => array($baseDir . '/src/item'),
+    'Dplus\\Dpluso\\ScreenFormatters\\II\\' => array($baseDir . '/src/ii'),
+    'Dplus\\Dpluso\\ScreenFormatters\\CI\\' => array($baseDir . '/src/ci'),
 );

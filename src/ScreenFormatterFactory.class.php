@@ -1,4 +1,6 @@
 <?php
+    namespace Dplus\Dpluso\ScreenFormatters;
+    
     /**
      * Factory to load all the Screen Formatters
      */

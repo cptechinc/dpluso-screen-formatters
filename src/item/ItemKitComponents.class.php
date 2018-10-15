@@ -1,4 +1,6 @@
 <?php 
+	namespace Dplus\Dpluso\ScreenFormatters\Item;
+
 	/**
 	 * Item KitComponentsParses and generates the display for 
 	 * item KitComponents

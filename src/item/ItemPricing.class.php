@@ -1,4 +1,6 @@
-<?php 
+<?php
+	namespace Dplus\Dpluso\ScreenFormatters\Item;
+	
 	/**
 	 * Item pricing Parses and generates the display for 
 	 * item pricing

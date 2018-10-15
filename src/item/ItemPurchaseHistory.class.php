@@ -1,4 +1,6 @@
-<?php 
+<?php
+	namespace Dplus\Dpluso\ScreenFormatters\Item;
+	
 	/**
 	 * Item history Parses and generates the display for 
 	 * item history

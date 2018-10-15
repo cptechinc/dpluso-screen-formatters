@@ -1,4 +1,6 @@
 <?php
+	namespace Dplus\Dpluso\ScreenFormatters\Item;
+	
 	/**
 	 * Item Stock Parses and generates the display for 
 	 * item stock

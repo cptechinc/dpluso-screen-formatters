@@ -5,46 +5,16 @@
     "keywords": ["ii", "ci", "vi", "screen-formatter", "table-screen"],
     "homepage": "http://github.com/cptechinc/dpluso-screen-formatters",
 	"autoload": {
-		"files": [
+		"psr-4":{
+			"Dplus\\Dpluso\\ScreenFormatters\\CI\\": "src/ci/",
+			"Dplus\\Dpluso\\ScreenFormatters\\II\\": "src/ii/",
+			"Dplus\\Dpluso\\ScreenFormatters\\VI\\": "src/vi/",
+			"Dplus\\Dpluso\\ScreenFormatters\\Item\\": "src/item/"
+		},
+		"classmap": [
 			"src/ScreenFormatterFactory.class.php",
 			"src/TableScreen.class.php",
-			"src/TableScreenFormatter.class.php",
-			"src/ii/SalesHistoryFormatter.class.php",
-			"src/ii/SalesOrdersFormatter.class.php",
-			"src/ii/PurchaseOrdersFormatter.class.php",
-			"src/ii/PurchaseHistoryFormatter.class.php",
-			"src/ii/QuotesFormatter.class.php",
-			"src/ii/ItemPageFormatter.class.php",
-			"src/ii/ItemActivityScreen.class.php",
-			"src/ii/ItemStockScreen.class.php",
-			"src/ii/ItemWarehouseStockScreen.class.php",
-			"src/ii/ItemRequirementsScreen.class.php",
-			"src/ii/ItemKitScreen.class.php",
-			"src/ii/ItemLotSerialFormatter.class.php",
-			"src/ii/ItemDocumentScreen.class.php",
-			"src/ii/ItemSubstituteScreen.class.php",
-			"src/ii/ItemPricingScreen.class.php",
-			"src/ii/ItemUsageScreen.class.php",
-			"src/ii/ItemNotesScreen.class.php",
-			"src/ii/ItemMiscScreen.class.php",
-			"src/ii/ItemCostingScreen.class.php",
-			"src/ci/SalesOrdersFormatter.class.php",
-			"src/ci/SalesHistoryFormatter.class.php",
-			"src/ci/OpenInvoicesFormatter.class.php",
-			"src/ci/PaymentHistoryFormatter.class.php",
-			"src/ci/CustomerScreen.class.php",
-			"src/ci/CustomerShiptoScreen.class.php",
-			"src/ci/ContactsScreen.class.php",
-			"src/ci/QuotesFormatter.class.php",
-			"src/vi/PurchaseOrdersFormatter.class.php",
-			"src/vi/PurchaseHistoryFormatter.class.php",
-			"src/vi/PaymentHistoryFormatter.class.php",
-			"src/vi/OpenInvoicesFormatter.class.php",
-			"src/vi/UnreleasedPurchaseOrdersFormatted.class.php",
-			"src/item/ItemPricing.class.php",
-			"src/item/ItemStock.class.php",
-			"src/item/ItemPurchaseHistory.class.php",
-			"src/item/ItemKitComponents.class.php"
+			"src/TableScreenFormatter.class.php"
 		]
 	}
 }

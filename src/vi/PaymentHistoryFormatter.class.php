@@ -1,4 +1,6 @@
 <?php
+	namespace Dplus\Dpluso\ScreenFormatters\VI;
+	
 	use Dplus\ProcessWire\DplusWire as DplusWire;
 	
 	/**

@@ -1,99 +1,128 @@
 <?php
-    namespace Dplus\Dpluso\ScreenFormatters;
-    
-    /**
-     * Factory to load all the Screen Formatters
-     */
-    class ScreenFormatterFactory {
-        /**
-         * Session Identifier
-         * @var string
-         */
-        protected $sessionID;
-        
-        /**
-         * Formatter Array with code as the key and the NAme as the value
-         * @var array
-         */
-        protected $formatters = array(
-            'ii-sales-history' => 'II_SalesHistoryFormatter',
-            'ii-sales-orders' => 'II_SalesOrdersFormatter',
-            'ii-purchase-orders' => 'II_PurchaseOrdersFormatter',
-            'ii-purchase-history' => 'II_PurchaseHistoryFormatter',
-            'ii-quotes' => 'II_Quotes',
-            'ii-item-page' => 'II_ItemPageFormatter',
-            
-            // CI
-            'ci-sales-orders' => 'SalesOrdersFormatter',
-            'ci-sales-history' => 'SalesHistoryFormatter',
-            'ci-open-invoices' => 'OpenInvoicesFormatter',
-            'ci-payment-history' => 'PaymentHistoryFormatter',
-            'ci-quotes' => 'QuotesFormatter',
-            
-            // VI 
-            'vi-purchase-orders' => 'VI_PurchaseOrdersFormatter',
-            'vi-purchase-history' => 'VI_PurchaseHistoryFormatter',
-            'vi-payment-history' => 'VI_PaymentHistoryFormatter',
-            'vi-open-invoices' => 'VI_OpenInvoicesFormatter',
-            'vi-unreleased-purchase-orders' => 'VI_UnreleasedPurchaseOrdersFormatter',
-            
-            // NON FORMATABLE
-            'ii-activity' => 'II_ItemActivityScreen',
-            'ii-stock' => 'II_ItemWarehouseStockScreen',
-            'ii-item-stock' => 'II_ItemStockScreen',
-            'ii-requirements' => 'II_ItemRequirementsScreen',
-            'ii-kit' => 'II_ItemKitScreen',
-            'ii-lot-serial' => 'II_ItemLotSerialScreen',
-            'ii-lot-serial' => 'II_ItemLotSerialFormatter',
-            'ii-documents' => 'II_ItemDocumentScreen',
-            'ii-substitutes' => 'II_ItemSubstituteScreen',
-            'ii-pricing' => 'II_ItemPricingScreen',
-            'ii-usage' => 'II_ItemUsageScreen',
-            'ii-notes' => 'II_ItemNotesScreen',
-            'ii-misc' => 'II_ItemMiscScreen',
-			'ii-costing' => 'II_ItemCostingScreen',
-            
-            'ci-customer-page' => 'CustomerScreen',
-            'ci-customer-shipto-page' => 'CustomerShiptoScreen',
-            'ci-contacts' => 'ContactsScreen',
+	namespace Dplus\Dpluso\ScreenFormatters;
+	
+	/**
+	 * Factory to load all the Screen Formatters
+	 */
+	class ScreenFormatterFactory {
+		use \Dplus\Base\ThrowErrorTrait;
+		
+		/**
+		 * Session Identifier
+		 * @var string
+		 */
+		protected $sessionID;
+		
+		/**
+		 * Formatter Array with code as the key and the NAme as the value
+		 * @var array
+		 */
+		protected $formatters = array(
+			'ii-sales-history' => 'SalesHistoryFormatter',
+			'ii-sales-orders' => 'SalesOrdersFormatter',
+			'ii-purchase-orders' => 'PurchaseOrdersFormatter',
+			'ii-purchase-history' => 'PurchaseHistoryFormatter',
+			'ii-quotes' => 'Quotes',
+			'ii-item-page' => 'ItemPageFormatter',
 			
-			'item-pricing' => 'Item_ItemPricing',
-			'item-stock' => 'Item_ItemStock',
-			'item-purchasehistory' => 'Item_ItemPurchaseHistory',
-			'item-kitcomponents' => 'Item_ItemKitComponents'
-        );
-        
-        /**
-         * Constructor
-         * @param string $sessionID Session Identifier
-         */
-        public function __construct($sessionID) {
-            $this->sessionID = $sessionID;
-        }
-        
-        /**
-         * Returns Screen formatter object of the type provided
-         * @param  string $type Formatter Type
-         * @return TableScreenMaker       Screen object
-         */
-        public function generate_screenformatter($type) {
-            if (in_array($type, array_keys($this->formatters))) {
-                return new $this->formatters[$type]($this->sessionID);
-            } else {
-                $this->error("Screen Formatter $type does not exist");
-                return false;
-            }
-        }
-        
-        /**
-         * Throws Error
-         * @param  string $error Error Message
-         * @param  int    $level Error Level
-         * @return void
-         */
-        protected function error($error, $level = E_USER_ERROR) {
-			$error = (strpos($error, 'DPLUSO[SCREEN-FORMATTER]: ') !== 0 ? 'DPLUSO[SCREEN-FORMATTER]: ' . $error : $error);
-			trigger_error($error, $level);
-			return;
+			// CI
+			'ci-sales-orders' => 'SalesOrdersFormatter',
+			'ci-sales-history' => 'SalesHistoryFormatter',
+			'ci-open-invoices' => 'OpenInvoicesFormatter',
+			'ci-payment-history' => 'PaymentHistoryFormatter',
+			'ci-quotes' => 'QuotesFormatter',
+			
+			// VI 
+			'vi-purchase-orders' => 'PurchaseOrdersFormatter',
+			'vi-purchase-history' => 'PurchaseHistoryFormatter',
+			'vi-payment-history' => 'PaymentHistoryFormatter',
+			'vi-open-invoices' => 'OpenInvoicesFormatter',
+			'vi-unreleased-purchase-orders' => 'UnreleasedPurchaseOrdersFormatter',
+			
+			// NON FORMATABLE
+			'ii-activity' => 'ItemActivityScreen',
+			'ii-stock' => 'ItemWarehouseStockScreen',
+			'ii-item-stock' => 'ItemStockScreen',
+			'ii-requirements' => 'ItemRequirementsScreen',
+			'ii-kit' => 'ItemKitScreen',
+			'ii-lot-serial' => 'ItemLotSerialScreen',
+			'ii-lot-serial' => 'ItemLotSerialFormatter',
+			'ii-documents' => 'ItemDocumentScreen',
+			'ii-substitutes' => 'ItemSubstituteScreen',
+			'ii-pricing' => 'ItemPricingScreen',
+			'ii-usage' => 'ItemUsageScreen',
+			'ii-notes' => 'ItemNotesScreen',
+			'ii-misc' => 'ItemMiscScreen',
+			'ii-costing' => 'ItemCostingScreen',
+			
+			'ci-customer-page' => 'CustomerScreen',
+			'ci-customer-shipto-page' => 'CustomerShiptoScreen',
+			'ci-contacts' => 'ContactsScreen',
+			
+			'item-pricing' => 'ItemPricing',
+			'item-stock' => 'ItemStock',
+			'item-purchasehistory' => 'ItemPurchaseHistory',
+			'item-kitcomponents' => 'ItemKitComponents'
+		);
+		
+		/**
+		 * Namespaces for each subsystem
+		 * @var array
+		 */
+		protected $namespaces = array(
+			'ii' => 'II',
+			'ci' => 'CI',
+			'vi' => 'VI',
+			'Item' => 'Item' 
+		)
+		
+		/**
+		 * Constructor
+		 * @param string $sessionID Session Identifier
+		 */
+		public function __construct($sessionID) {
+			$this->sessionID = $sessionID;
 		}
-    } 
+		
+		/**
+		 * Returns Screen formatter object of the type provided
+		 * @param  string           $formattercode Formatter Type
+		 * @return TableScreenMaker                Screen Formatter object
+		 */
+		public function generate_screenformatter($formattercode) {
+			if (in_array($type, array_keys($this->formatters))) {
+				$namespace = $this->get_namespace($formattercode);
+				
+				if ($namespace) {
+					$fullnamespace = __NAMESPACE__ . $namespace;
+					$class = $fullnamespace . $this->formatters[$formattercode];
+					return new $class($this->sessionID);
+				} else {
+					$this->error("Namespace for Screen Formatter $type does not exist");
+					return false;
+				}
+				
+			} else {
+				$this->error("Screen Formatter $type does not exist");
+				return false;
+			}
+		}
+		
+		/**
+		 * Returns Namespace after taking the formatter code and parsing out
+		 * the namespace and validates it's a valid namespace
+		 * @param  string $formattercode Formatter id / code e.g. ii-documents | ci-sales-orders
+		 * @return string                Namespace for formatter
+		 */
+		private function get_namespace($formattercode) {
+			$regex = "/-\w+/";
+			$nskey = preg_replace($regex, "", $type);
+			
+			if (in_array($nskey, array_keys($this->namespaces))) {
+				return $this->namespaces[$nskey];
+			} else {
+				$this->error("Screen Formatter $formattercode does not exist");
+				return false;
+			}
+		}
+	} 

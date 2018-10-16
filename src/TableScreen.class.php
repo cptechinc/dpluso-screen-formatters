@@ -8,7 +8,7 @@
 	 * Abstract file to build Screen classes from and to provide properties and methods
 	 */
 	abstract class TableScreenMaker {
-		use Dplus\Base\ThrowErrorTrait;
+		use \Dplus\Base\ThrowErrorTrait;
 
 		/**
 		 * Session ID

@@ -19,13 +19,13 @@
 		/* =============================================================
 			PUBLIC FUNCTIONS
 		============================================================ */
-		public function generate_customertable(Customer $customer) {
+		public function generate_customertable(\Customer $customer) {
 			$tableformatter = new CI_CustomerScreen($this->sessionID);
 			$tableformatter->process_json();
 			return $tableformatter->generate_customertable($customer);
 		}
 
-		public function generate_shiptotable(Customer $customer) {
+		public function generate_shiptotable(\Customer $customer) {
 			$bootstrap = new HTMLWriter();
 			$tb = new Table("class=table table-striped table-bordered table-condensed table-excel");
 			foreach (array_keys($this->json['columns']['top']) as $column) {

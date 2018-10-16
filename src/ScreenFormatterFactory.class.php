@@ -74,7 +74,7 @@
 			'ci' => 'CI',
 			'vi' => 'VI',
 			'Item' => 'Item' 
-		)
+		);
 		
 		/**
 		 * Constructor
@@ -90,20 +90,19 @@
 		 * @return TableScreenMaker                Screen Formatter object
 		 */
 		public function generate_screenformatter($formattercode) {
-			if (in_array($type, array_keys($this->formatters))) {
+			if (in_array($formattercode, array_keys($this->formatters))) {
 				$namespace = $this->get_namespace($formattercode);
 				
 				if ($namespace) {
-					$fullnamespace = __NAMESPACE__ . $namespace;
+					$fullnamespace = __NAMESPACE__ .  "\\$namespace\\";
 					$class = $fullnamespace . $this->formatters[$formattercode];
 					return new $class($this->sessionID);
 				} else {
-					$this->error("Namespace for Screen Formatter $type does not exist");
+					$this->error("Namespace for Screen Formatter $formattercode does not exist");
 					return false;
 				}
-				
 			} else {
-				$this->error("Screen Formatter $type does not exist");
+				$this->error("Screen Formatter $formattercode does not exist");
 				return false;
 			}
 		}
@@ -116,7 +115,7 @@
 		 */
 		private function get_namespace($formattercode) {
 			$regex = "/-\w+/";
-			$nskey = preg_replace($regex, "", $type);
+			$nskey = preg_replace($regex, "", $formattercode);
 			
 			if (in_array($nskey, array_keys($this->namespaces))) {
 				return $this->namespaces[$nskey];

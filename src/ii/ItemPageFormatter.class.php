@@ -2,9 +2,9 @@
 	namespace Dplus\Dpluso\ScreenFormatters\II;
 	
 	use Dplus\ProcessWire\DplusWire;
-	use Dplus\Dpluso\ScreenFormatters\TableScreenFormatter;
 	use Dplus\Content\HTMLWriter;
 	use Dplus\Content\Table;
+	use Dplus\Dpluso\ScreenFormatters\TableScreenFormatter;
 	
 	/**
 	 * Formatter for the II Item Page

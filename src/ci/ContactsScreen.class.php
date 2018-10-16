@@ -2,9 +2,9 @@
 	namespace Dplus\Dpluso\ScreenFormatters\CI;
 	
 	use Dplus\ProcessWire\DplusWire;
-	use Dplus\Dpluso\ScreenFormatters\TableScreenMaker;
 	use Dplus\Content\HTMLWriter;
 	use Dplus\Content\Table;
+	use Dplus\Dpluso\ScreenFormatters\TableScreenMaker;
 	
 	/**
 	 * Formatter for the CI Contacts Screen

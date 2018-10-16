@@ -2,9 +2,10 @@
 	namespace Dplus\Dpluso\ScreenFormatters\VI;
 	
 	use Dplus\ProcessWire\DplusWire;
-	use Dplus\Dpluso\ScreenFormatters\TableScreenFormatter;
 	use Dplus\Content\HTMLWriter;
 	use Dplus\Content\Table;
+	use Dplus\Dpluso\ScreenFormatters\TableScreenMaker;
+	use Dplus\Dpluso\ScreenFormatters\TableScreenFormatter;
 	
 	/**
 	 * Formatter for VI Purchase History Screen

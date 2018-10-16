@@ -2,6 +2,7 @@
 	namespace Dplus\Dpluso\ScreenFormatters\II;
 	
 	use Dplus\ProcessWire\DplusWire;
+	use Dplus\Dpluso\ScreenFormatters\TableScreenMaker;
 	use Dplus\Dpluso\ScreenFormatters\TableScreenFormatter;
 	use Dplus\Content\HTMLWriter;
 	use Dplus\Content\Table;

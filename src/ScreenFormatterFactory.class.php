@@ -73,7 +73,7 @@
 			'ii' => 'II',
 			'ci' => 'CI',
 			'vi' => 'VI',
-			'Item' => 'Item' 
+			'item' => 'Item' 
 		);
 		
 		/**

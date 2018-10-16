@@ -3,8 +3,10 @@
 	
 	use Dplus\ProcessWire\DplusWire;
 	use Dplus\Content\HTMLWriter;
+	use Dplus\Content\FormMaker;
 	use Dplus\Content\Table;
 	use Dplus\Dpluso\ScreenFormatters\TableScreenFormatter;
+	use \XRefItem;
 	
 	/**
 	 * Formatter for the II Item Page
@@ -67,7 +69,7 @@
 				
 				if ($column['id'] == 'Item ID') {
 					$action = DplusWire::wire('config')->pages->ajax."load/ii/search-results/modal/";
-					$form = new Dplus\Content\FormMaker("action=$action|method=POST|id=ii-item-lookup|class=allow-enterkey-submit");
+					$form = new FormMaker("action=$action|method=POST|id=ii-item-lookup|class=allow-enterkey-submit");
 					$form->input('type=hidden|name=action|value=ii-item-lookup');
 					$form->input("type=hidden|name=custID|class=custID|value=$custID");
 					$form->input("type=hidden|name=shipID|class=shipID|value=$shipID");

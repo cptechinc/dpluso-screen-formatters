@@ -4,6 +4,12 @@
     "description": "Screen Formatter Classes for Dplus Online",
     "keywords": ["ii", "ci", "vi", "screen-formatter", "table-screen"],
     "homepage": "http://github.com/cptechinc/dpluso-screen-formatters",
+	"require": {
+        "cptechinc/dplus-base": "dev-psr4",
+        "cptechinc/dplus-processwire": "dev-master",
+        "cptechinc/dplus-order": "dev-psr4",
+        "cptechinc/dplus-content": "dev-psr4"
+    },
 	"autoload": {
 		"psr-4":{
 			"Dplus\\Dpluso\\ScreenFormatters\\CI\\": "src/ci/",

@@ -5,10 +5,11 @@
 	use Dplus\Dpluso\ScreenFormatters\TableScreenMaker;
 	use Dplus\Content\HTMLWriter;
 	use Dplus\Content\Table;
-	use Dplus\Content\FormMaker;
+	use Dplus\Content\FormMaker;	
+	use \Customer;
 	
 	/**
-	 * Formatter for CI \Customer Screen
+	 * Formatter for CI Customer Screen
 	 * Formattable
 	 */
 	class CustomerScreen extends TableScreenMaker {
@@ -27,10 +28,10 @@
 		
 		/**
 		 * Returns HTML table with Customer data
-		 * @param  \Customer $customer Customer
-		 * @return string             HTML table with \Customer data
+		 * @param  Customer $customer Customer
+		 * @return string             HTML table with Customer data
 		 */
-		public function generate_customertable(\Customer $customer) {
+		public function generate_customertable(Customer $customer) {
 			$bootstrap = new HTMLWriter();
 			$tb = new Table("class=table table-striped table-bordered table-condensed table-excel");
 			foreach (array_keys($this->json['columns']['top']) as $column) {
@@ -56,10 +57,10 @@
 		
 		/**
 		 * Returns HTML table with Customer Shipto data
-		 * @param  \Customer $customer Customer
-		 * @return string             HTML table with \Customer Shipto data
+		 * @param  Customer $customer Customer
+		 * @return string             HTML table with Customer Shipto data
 		 */
-		public function generate_shiptotable(\Customer $customer) {
+		public function generate_shiptotable(Customer $customer) {
 			$bootstrap = new HTMLWriter();
 			$tb = new Table("class=table table-striped table-bordered table-condensed table-excel");
 			foreach (array_keys($this->json['columns']['top']) as $column) {
@@ -90,10 +91,10 @@
 		
 		/**
 		 * Returns HTML form for the Customer Page
-		 * @param  \Customer $customer Customer
+		 * @param  Customer $customer Customer
 		 * @return string             HTML form for the Customer Page
 		 */
-		public function generate_pageform(\Customer $customer) {
+		public function generate_pageform(Customer $customer) {
 			$action = DplusWire::wire('config')->pages->ajax."load/customers/cust-index/";
 			$form = new FormMaker("action=$action|method=POST|id=ci-cust-lookup|class=allow-enterkey-submit");
 			$form->input("type=hidden|name=action|value=ci-item-lookup");

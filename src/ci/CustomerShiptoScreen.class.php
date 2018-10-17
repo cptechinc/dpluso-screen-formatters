@@ -21,7 +21,7 @@
 			PUBLIC FUNCTIONS
 		============================================================ */
 		public function generate_customertable(Customer $customer) {
-			$tableformatter = new CI_CustomerScreen($this->sessionID);
+			$tableformatter = new CustomerScreen($this->sessionID);
 			$tableformatter->process_json();
 			return $tableformatter->generate_customertable($customer);
 		}

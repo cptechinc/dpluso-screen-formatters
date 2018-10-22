@@ -5,6 +5,7 @@
 	use Dplus\Content\HTMLWriter;
 	use Dplus\Content\Table;
 	use Dplus\Dpluso\ScreenFormatters\TableScreenMaker;
+	use Dplus\Content\JavaScripter;
 	
 	/**
 	 * Formatter for II Item Usage Screen

@@ -1,6 +1,7 @@
 <?php
 	namespace Dplus\Dpluso\ScreenFormatters;
 	
+	use ProcessWire\WireInput;
 	use Dplus\ProcessWire\DplusWire;
 	
 	/**
@@ -103,10 +104,10 @@
 		/**
 		 * Generates and Sets tableblueprint property based on 
 		 * the input
-		 * @param  ProcessWire\WireInput $input Input with field definitions
+		 * @param  WireInput $input Input with field definitions
 		 * @return [type]							 [description]
 		 */
-		public function generate_formatterfrominput(ProcessWire\WireInput $input) {
+		public function generate_formatterfrominput(WireInput $input) {
 			$this->formatter = false;
 			$postarray = $table = array('cols' => 0);
 			$tablesections = array_keys($this->fields['data']);
